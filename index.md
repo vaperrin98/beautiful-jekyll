@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Life Satisfaction and Housing 
+title: Happiness & Housing in London 
 subtitle: Does housing has an influence on people's life satisfaction and happiness? Could the 33 boroughs of London allow us to uncover the housing and neighborhood conditions that make people happy?
 ---
 
@@ -36,7 +36,9 @@ Let's first have some insights on the data we have.
 
 <a name = "part1"></a>
 # 1. Location and life satisfaction
-Are you more satisfied with your life if you live in a particular borough of London? Do inhabitants of Kensington and Chelsea, the most expensive borough of London, are happier than others? Let's find out.
+Are you more satisfied with your life if you live in a particular borough of London? Do inhabitants of Kensington and Chelsea, the most expensive borough of London, are happier than others? 
+
+***Let's find out.***
 
 <a name = "part1a"></a>
 ## 1.1. What could influence your happiness?
@@ -50,7 +52,7 @@ We identify the following parameters to be of potential influence for your happi
 
 <a name = "part1b"></a>
 ## 1.2. What really makes you happy
-After some visual investigation, we could think that for instance people living in inner London boroughs are happier. So does your housing location really defines your happiness? To answer this, we use different linear regression models. In model 1, we only tried to predict life satisfaction in function of whether the borough was located in inner or outer London. In model 2, we added the possible influence of health and safety in the neighborhood. In model 3 we additionally used the influence of employment rates and income. From this, we conclude the significance and thus importance of parameters defining your life satisfaction, happiness, worthwhileness and anxiety. 
+After some visual investigation, we could think that, for instance, people living in inner London boroughs are happier. So does your housing location really define your happiness? To answer this, we use different linear regression models. In model 1, we only tried to predict life satisfaction in function of whether the borough was located in inner or outer London. In model 2, we added the possible influence of health and safety in the neighborhood. In model 3 we additionally used the influence of employment rates and income. From this, we conclude the significance and thus importance of parameters defining your life satisfaction, happiness, worthwhileness and anxiety. 
 -> put graph with 100%-pvalue to show significance
 Write conclusions
 
