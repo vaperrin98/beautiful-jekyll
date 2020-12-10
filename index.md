@@ -8,11 +8,12 @@ Housing is an important component of everyone's life. After all, your home is wh
 
 # Why this study?
 
-Cattaneo and al., in their paper *Housing, Health and Happiness*, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program, Piso Firme. That program aimed to replace household dirt floors by cement floors to improve standards of living. In particular, what is interesting for us, is that they found that housing upgrades significantly improve adult welfare, as measured by increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: how does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city? We decided to extend their work by looking at data from housing in London.
+Cattaneo and al., in their paper *Housing, Health and Happiness*, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program, Piso Firme. That program aimed to replace household dirt floors by cement floors to improve standards of living. In particular, what is interesting for us, is that they found that housing upgrades significantly improve adult welfare, as measured by increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: **How does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city?** We decided to extend their work by looking at data from housing in London.
 
 We explore the possibility to find such housing influence through London boroughs. If our study context is certainly different from theirs (the housing conditions in these two countries are rather different, dirt floors are not ), we also compare information of small closely related locations (London boroughs, while they use two twin cities of Mexico) to uncover the influence of housing in these neighborhoods on their inhabitants' life. 
 
 What if we could establish the influence of numerous housing variables, such as prices, neighbourhoods (and conditions) on your life satisfaction and happiness in the city of London? We would be able to tell you where you should live to make your life great!
+
 But also, can politicians use your housing and neighbourhood conditions to know if you will vote for them? We further extend our research on whether political opinion is defined by these conditions, to find which neighborhoods are won by which party.
 
 ## Index
@@ -91,7 +92,7 @@ What could make your neighborhood so great compared to others? Let's visualize s
 With this in mind, let's select some factors that could help us identify boroughs with a lot in common. We selected:
 - PUT VARIABLES SELECTED FOR Q2
 
-***Now, let's get into the real stuff.***
+***Now, let's dive into the real stuff.***
 
 <a name = "part2b"></a>
 ## 2.2. How are these groups defined?
@@ -124,26 +125,31 @@ To conclude, it is possible to group London neighborhoods, showing that well bei
 
 **Until now,** we found that location, standards of living, neighborhood and housing conditions can all help predict your happiness, and lead to significant differences between boroughs. We know what this means for you: happier, less anxious, in short, you now have all the keys to have a better life!
 
-But what does this mean for the powerful political men and women of London? How can they win you over based on what they know about you?
+But what does all this mean for the powerful political men and women of London? How can they win you over based on what they know about you?
 
 <a name = "part3"></a>
 # 3. Policital control in council
 Let's visualize some information about the boroughs in relation to the political party in control there.
--> map with political control, some variables relating to political control
+-> map with political control, some variables in relation to political control
 
-For this analysis, we will restrict ourselves to the two major londonian parties, Labour and Conservatives.
+For this analysis, we will restrict ourselves to the two major londonian parties, the Labour and Conservative parties.
 
-With all this, we can identify the variables that could influence why a party has the control in council:
+With all this, we can identify the variables that could influence why a party has the control in council in a neighborhood:
 - PUT VARIABLES USED IN Q3
 
-So now, can we predict if you vote 
+So now, can we predict for which party you vote based on 
 
 <a name = "part3a"></a>
 ## 3.1. Influence of life satisfaction on political control
-Using some logistic regression models, we 
+Using some logistic regression models, we want to establish the signifiance of multiple parameters in predicting the political contronl in council of a borough, we selected multiple types of variables, belonging to location, happiness, age, life comfort, and security criteria. Here's what we found in terms of importance for each parameter: ->put graph 100%-pvalues
+
+Well, it's nice, we now know which factors influence significantly the political orientation of a borough. But what can we do with this?
+
+Let's say that we want to predict for politicians the political orientation of a neighborhood they like to win.
 
 <a name = "part3b"></a>
 ## 3.2. What does this mean for a politician?
+
 
 <a name = "conclusion"></a>
 # Conclusion
