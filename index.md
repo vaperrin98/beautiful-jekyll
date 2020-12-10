@@ -38,12 +38,12 @@ Let's first have some insights on the data we have.
 Are you more satisfied with your life if you live in a particular borough of London? Do inhabitants of Kensington and Chelsea, the most expensive borough of London, are happier than others? Let's find out.
 
 <a name = "part1a"></a>
-## 1.a. 
+## 1.1. 
 To discover what makes people satisfied with their life, we think about what could make people happy with their housing conditions. Let's observe for instance the employment rate, the household income, the life satisfaction score, and the happiness score of Londong boroughs in relation to their location.
 -> put the graphs investigating the variables used in this question + describe this and make the conclusions.
 
 <a name = "part1b"></a>
-## 1.b.
+## 1.2.
 After some visual investigation, we could think that for instance people living in inner London boroughs are happier. So does your housing location really defines your happiness? To answer this, we use different linear regression models. In model 1, we only tried to predict life satisfaction in function of whether the borough was located in inner or outer London. In model 2, we added the possible influence of health and safety in the neighborhood. In model 3 we additionally used the influence of employment rates and income. From this, we conclude the significance and thus importance of parameters defining your life satisfaction, happiness, worthwhileness and anxiety. 
 -> put graph with 100%-pvalue to show significance
 Write conclusions
@@ -58,25 +58,32 @@ But could the standard of living be used to predict life satisfaction? We chose 
 
 We see that the crime rates per thousand population alone cannot predict any of these scores, meaning that having high numbers of crimes in your neighborhood doesn't affect your personal life that much (well, until that happens to you).
 
-For the median house price alone, FINISH THAT 
+For the median house price alone, we see that it is very efficient to predict the anxiety score, but not the other scores. FINISH THAT 
 
 In terms of gross annual pay, it is not surprising to find that earning more money can help reducing your anxiety, as well as increasing your happiness. However, you're not more satisfied with your life if you earn more. 
 
-But what's interesting here, is that how you own your house is a powerful predictor of Homes owned Outright is a credible variable to be able to predict all 4 scores.
+But what's interesting here, is that how you own your house is a powerful predictor for all 4 scores. Homes owned outright, that is, having full possession of your home (meaning you paid all of it directly with your own money, no loan) has a significant influence on your life satisfaction, happiness, worthwhileness and anxiety.
 
-CORRECT THIS: We can thus answer that by looking at the p-values, Life satisfaction can be defined by standard of living and more particularly by whether a home was owned outright or not more than by location. 
+To conclude:
+- Your location does define your life satisfaction, worthwhileness, and happiness, but not your anxiety.
+- However, this al
+We can thus answer that life satisfaction can be particularly defined by whether a home was owned outright and by location. 
+
+So to be one of the happiest person of London, you should live in inner London and own your home outright! **Simple, right?**
+
+But let's go a bit further.
 
 <a name = "part2"></a>
 # 2. Neighborhoods
 We found that location does define your happiness. But are neighboorhoods that different? Can we find some differences so important that they define clusters of boroughs?
 
 <a name = "part2a"></a>
-## 2.a. Finding borough groups
+## 2.1. Finding borough groups
 What could make your neighborhood so great compared to others? Let's visualize some infos for the boroughs.
 -> put graphs/figures with 
 
 <a name = "part2b"></a>
-## 2.b. How are these groups defined?
+## 2.2. How are these groups defined?
 It is quite possible to group neighborhoods by looking at well-being, security and economic stability. We were able to find 5 groups of boroughs. By going back to the original data, we can show the groups using a map of London. And well, we find that the boroughs clustered together were usually belonging to the same London region (inner/outer london, geographic location)!
 
 #### But, what are these two lonely neighborhoods?
@@ -94,16 +101,21 @@ The second outlier is **Westminster**. A very touristic borough with high freque
 
 If the large majority of parameters are within the normal range, one variable is particularly high in this borough: the crime rates. The crime rates per thousand population in Westminster is almost 3 times higher as the london mean crime rates per thousand population. (put small barplot for this). This added to the tourists everywhere, probably not a great place to live in London ...
 
+If we did find some borough clusters, we see that it isn't easy to group the neighborhoods in very distinct clusters. This is not really surprising, as real human data is usually defined by many variables, and they are probably not all included in that analysis. 
+
+But can we find significant differences between neighborhoods in terms of life satisfaction, happiness, worthwhileness and anxiety, significant enough to uncover groups of neighborhoods? We found that it was not the case. This indicates that well-being variables by themselves cannot explain the neighborhood groups.
+
+To conclude, it is possible to group London neighborhoods, showing that well being, security and economic stability **together** are important life components that create some differences between neighborhoods in London.
 
 <a name = "part3"></a>
 # 3. Policital control in council
 -> map with political control
 
 <a name = "part3a"></a>
-## 3.a. Influence of life satisfaction on political control
+## 3.1. Influence of life satisfaction on political control
 
 <a name = "part3b"></a>
-## 3.b. What does this mean for a politician?
+## 3.2. What does this mean for a politician?
 
 <a name = "conclusion"></a>
 # Conclusion
