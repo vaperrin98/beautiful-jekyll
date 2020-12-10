@@ -17,14 +17,14 @@ But also, can politicians use your housing and neighbourhood conditions to know 
 
 ## Index
 1. [Does location define life satisfaction or is it defined by standard of living (job, house price)?](#part1)
-1.a. [What could influence your happiness?](#part1a)
-1.b. [Are you really happier if you live in inner London?](#part1b)
+    1.a. [What could influence your happiness?](#part1a)
+    1.b. [Are you really happier if you live in inner London?](#part1b)
 2. [Can we group neighborhoods by looking at well being, security and economic stability?](#part2)
-2.a. [Are neighborhoods really that different?](#part2a)
-2.b. [Borough groups](#part2b)
+    2.a. [Are neighborhoods really that different?](#part2a)
+    2.b. [Borough groups](#part2b)
 3. [Can we predict political control based on life satisfaction and housing conditions?](#part3)
-3.a. [Do people vote significantly differently based on their life satisfaction and housing?](#part3a)
-3.b. [Can politicians know your political preferences based on where you live?](#part3b)
+    3.a. [Do people vote significantly differently based on their life satisfaction and housing?](#part3a)
+    3.b. [Can politicians know your political preferences based on where you live?](#part3b)
 [Conclusion](#conclusion)
 
 
@@ -62,13 +62,17 @@ What could make your neighborhood so great compared to others? Let's visualize s
 It is quite possible to group neighborhoods by looking at well-being, security and economic stability. We were able to find 5 groups of boroughs. By going back to the original data, we can show the groups using a map of London. And well, we find that the boroughs clustered together were usually belonging to the same London region (inner/outer london, geographic location)!
 
 #### But, what are these two lonely neighborhoods?
-Two neighborhoods cannot be linked to any others? Why??? 
+Two neighborhoods cannot be linked to any others? Why? 
+
 If they are solo, it must be because they are very different from the others! Let's find out why ...
 
 The first outlier is the City of London. This does not mean London Town, but rather the historical and central primary business of London. This a major business and financial center, mostly consisting of companies and business group headquarters. Its characteristics are quite different from other boroughs, but what makes it that different? Let's look at some numbers:
--> put numbers for that neighborhood
+-> put numbers for that neighborhood, in comparison with other neighborhoods)
 
-The second outlier is Westminster. A very touristic borough with high frequentation rates, where the Westminster abbaye and the Big Ben can be seen. is probably an outlier due to its very high crime rates. 
+The second outlier is Westminster. A very touristic borough with high frequentation rates, where the Westminster abbaye and the Big Ben can be seen. But what makes it so different from others? Let's look at some numbers again.
+-> put numbers 
+
+If large majority of parameters are within the normal range, one variable is particularly high in this borough: the crime rates. The crime rates per thousand population in Westminster is almost 3 times higher as the london mean crime rates per thousand population. (put small barplot for this)
 
 
 <a name = "part3"></a>
