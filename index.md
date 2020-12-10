@@ -11,7 +11,6 @@ Cattaneo and al., in their paper Housing, Health and Happiness, discuss the infl
 We explore the possibility to find such housing influence through London boroughs. If our study context is certainly different from theirs (the housing conditions in these two countries are rather different), we will also compare information of small closely related locations (London boroughs) to uncover the influence of housing in these neighborhoods on their inhabitants' life. 
 
 ## Index
-
 1. [Does location define life satisfaction or is it defined by standard of living (job, house price)?] (#part1)
 2. [Can we group neighborhoods by looking at well being, security and economic stability?] (#part2)
 3. [Can we predict political control based on life satisfaction and housing conditions?] (#part3)
@@ -19,10 +18,10 @@ We explore the possibility to find such housing influence through London borough
 
 
 <a name = "part1"></a>
-## 1.
+## 1. Location and life satisfaction
 
 <a name = "part2"></a>
-## 2.
+## 2. Neighborhoods
 
 <a name = "part3"></a>
-## 3.
+## 3. Policital control in council
