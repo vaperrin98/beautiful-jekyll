@@ -17,14 +17,14 @@ But also, can politicians use your housing and neighbourhood conditions to know 
 
 ## Index
 1. [Does location define life satisfaction or is it defined by standard of living (job, house price)?](#part1)
-    1.a. [What could influence your happiness?](#part1a)
-    1.b. [Are you really happier if you live in inner London?](#part1b)
+    1. [What could influence your happiness?](#part1a)
+    2. [Are you really happier if you live in inner London?](#part1b)
 2. [Can we group neighborhoods by looking at well being, security and economic stability?](#part2)
-    2.a. [Are neighborhoods really that different?](#part2a)
-    2.b. [Borough groups](#part2b)
+    1. [Are neighborhoods really that different?](#part2a)
+    2. [Borough groups](#part2b)
 3. [Can we predict political control based on life satisfaction and housing conditions?](#part3)
-    3.a. [Do people vote significantly differently based on their life satisfaction and housing?](#part3a)
-    3.b. [Can politicians know your political preferences based on where you live?](#part3b)
+    1. [Do people vote significantly differently based on their life satisfaction and housing?](#part3a)
+    2. [Can politicians know your political preferences based on where you live?](#part3b)
 [Conclusion](#conclusion)
 
 
