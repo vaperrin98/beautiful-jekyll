@@ -1,10 +1,10 @@
 ---
 layout: home
-title: Life Satisfaction and Housing conditions in London
+title: Life Satisfaction and Housing 
 subtitle: Does housing has an influence on people's life satisfaction and happiness? Could the 33 boroughs of London allow us to uncover the housing and neighborhood conditions that make people happy?
 ---
 
-# Could the 33 boroughs of London allow us to uncover the housing and neighborhood conditions that make people happy?
+Housing is an important component of everyone's life. After all, your home is where you spend most of your week, particularly in these trouble times. Does your neighborhood, that you now know by heart since lockdown, contribute to your happiness?
 
 # Why this study?
 
@@ -13,24 +13,55 @@ We explore the possibility to find such housing influence through London borough
 
 ## Index
 1. [Does location define life satisfaction or is it defined by standard of living (job, house price)?](#part1)
-  1.a. [What could influence your happiness?](#part1a)
-  1.b. [Are you really happier if you live in inner London?](#part1b)
+    1.a. [What could influence your happiness?](#part1a)
+    1.b. [Are you really happier if you live in inner London?](#part1b)
 2. [Can we group neighborhoods by looking at well being, security and economic stability?](#part2)
-  2.a. [Are neighborhoods really that different?](#part2a)
-  2.b. [](#part2b)
+    2.a. [Are neighborhoods really that different?](#part2a)
+    2.b. [Borough groups](#part2b)
 3. [Can we predict political control based on life satisfaction and housing conditions?](#part3)
-
-
+    3.a. [Do people vote significantly differently based on their life satisfaction and housing?](#part3a)
+    3.b. [Can politicians know your political preferences based on where you live?](#part3b)
+[Conclusion](#conclusion)
 
 <a name = "part1"></a>
 # 1. Location and life satisfaction
 Are you more satisfied with your life if you will in a particular borough of London? Do inhabitants of Kensington and Chelsea, the most expensive borough of London, are happier than others? 
-To discover what makes people satisfied with their life,  
 
-## 1.a.
+<a name = "part1a"></a>
+## 1.a. 
+To discover what makes people satisfied with their life, we think about what could make people happy with their housing conditions. Let's observe for instance the employment rate, the household income, the life satisfaction score, and the happiness score of Londong boroughs in relation to their location.
+-> put the graphs investigating the variables used in this question + describe this and make the conclusions.
+
+<a name = "part1b"></a>
+## 1.b.
+After some investigation, we could think that people living in inner London boroughs are happier. So does your housing location really defines your happiness? To answer this, we use different linear regression models. In model 1, we only tried to predict life satisfaction in function of whether the borough was located in inner or outer London. In model 2, we added the possible influence of health and safety in the neighborhood. In model 3 we additionally used the influence of employment rates and income. From this, we conclude the significance and thus importance of parameters defining your life satisfaction, happiness, worthwhileness and anxiety. 
+-> put graph with 100%-pvalue
+Write conclusions
 
 <a name = "part2"></a>
 # 2. Neighborhoods
+We found that location does define your happiness. But are neighboorhoods that different? Can we find some differences what would define clusters of boroughs?
+
+<a name = "part2a"></a>
+## 2.a. Finding borough groups
+
+
+<a name = "part2b"></a>
+## 2.b. How are these groups defined?
+It is quite possible to group neighborhoods by looking at well-being, security and economic stability. We were able to find 5 groups of boroughs. By going back to the original data, we can show the groups using a map of London. And well, we find that the boroughs clustered together were usually belonging to the same London region (inner/outer london, geographic location)!
+
 
 <a name = "part3"></a>
 # 3. Policital control in council
+-> map with political control
+
+<a name = "part3a"></a>
+## 3.a. Influence of life satisfaction on political control
+
+<a name = "part3b"></a>
+## 3.b. What does this mean for a politician?
+
+<a name = "conclusion"></a>
+# Conclusion
+
+[//]:#(---------- END OF WHAT IS VISIBLE ----------------)
