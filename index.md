@@ -147,9 +147,18 @@ Well, it's nice, we now know which factors influence significantly the political
 
 Let's say that we want to predict for politicians the political orientation of a neighborhood they like to win.
 
+***Let's do it!***
+
 <a name = "part3b"></a>
 ## 3.2. What does this mean for a politician?
+We selected potentially interesting variables. From this, we predict the majority party of each borough, and we get a 67.5% prediction accuracy (meh not too bad). Let's see how this accuracy transcribes geographically.
 
+-> put map of prediction compared to reality
+-> put confusion matrix
+
+We see that we are not too far from reality! But let's find a reason for all the wrongly predicted boroughs ...
+-> explain class imbalance
+-> try the prediction of percentage and then choose best percentage as winning party
 
 <a name = "conclusion"></a>
 # Conclusion
