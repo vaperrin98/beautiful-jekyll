@@ -124,17 +124,19 @@ To conclude, it is possible to group London neighborhoods, showing that well bei
 
 **Until now,** we found that location, standards of living, neighborhood and housing conditions can all help predict your happiness, and lead to significant differences between boroughs. We know what this means for you: happier, less anxious, in short, you now have all the keys to have a better life!
 
-But what does this mean for the powerful political men and women of London? How can they win you over?
+But what does this mean for the powerful political men and women of London? How can they win you over based on what they know about you?
 
 <a name = "part3"></a>
 # 3. Policital control in council
 Let's visualize some information about the boroughs in relation to the political party in control there.
 -> map with political control, some variables relating to political control
 
+For this analysis, we will restrict ourselves to the two major londonian parties, Labour and Conservatives.
+
 With all this, we can identify the variables that could influence why a party has the control in council:
 - PUT VARIABLES USED IN Q3
 
-So now, can we find 
+So now, can we predict if you vote 
 
 <a name = "part3a"></a>
 ## 3.1. Influence of life satisfaction on political control
