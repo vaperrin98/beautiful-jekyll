@@ -2,8 +2,9 @@
 layout: home
 title: Life Satisfaction and Housing conditions in London
 subtitle: Does housing has an influence on people's life satisfaction and happiness?  
-Could the 33 boroughs of London allow us to uncover the housing and neighborhood conditions that make people happy?
 ---
+
+Could the 33 boroughs of London allow us to uncover the housing and neighborhood conditions that make people happy?
 
 # Why this study?
 
