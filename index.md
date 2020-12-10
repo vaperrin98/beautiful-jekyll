@@ -17,6 +17,7 @@ But also, can politicians use your housing and neighbourhood conditions to know 
 
 ## Index
 1. [Does location define life satisfaction or is it defined by standard of living (job, house price)?](#part1)
+
         1.a. [What could influence your happiness?](#part1a)
         1.b. [Are you really happier if you live in inner London?](#part1b)
 2. [Can we group neighborhoods by looking at well being, security and economic stability?](#part2)
