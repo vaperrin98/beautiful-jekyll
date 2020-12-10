@@ -36,7 +36,7 @@ Let's first have some insights on the data we have.
 
 <a name = "part1"></a>
 # 1. Location and life satisfaction
-Are you more satisfied with your life if you live in a particular borough of London? Do inhabitants of Kensington and Chelsea, the most expensive borough of London, are happier than others? 
+Are you more satisfied with your life if you live in a particular borough of London? For instance, are inhabitants of Kensington and Chelsea, the most expensive borough of London, happier than others? 
 
 ***Let's find out.***
 
