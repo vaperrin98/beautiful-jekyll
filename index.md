@@ -25,7 +25,7 @@ But also, can politicians use your housing and neighbourhood conditions to know 
 3. [Can we predict political control based on life satisfaction and housing conditions?](#part3)
     1. [Do people vote significantly differently based on their life satisfaction and housing?](#part3a)
     2. [Can politicians know your political preferences based on where you live?](#part3b)
-[Conclusion](#conclusion)
+4. [Conclusion](#conclusion)
 
 
 Let's first have some insights on the data we have. 
@@ -38,12 +38,17 @@ Let's first have some insights on the data we have.
 Are you more satisfied with your life if you live in a particular borough of London? Do inhabitants of Kensington and Chelsea, the most expensive borough of London, are happier than others? Let's find out.
 
 <a name = "part1a"></a>
-## 1.1. 
+## 1.1. What could influence your happiness?
 To discover what makes people satisfied with their life, we think about what could make people happy with their housing conditions. Let's observe for instance the employment rate, the household income, the life satisfaction score, and the happiness score of Londong boroughs in relation to their location.
 -> put the graphs investigating the variables used in this question + describe this and make the conclusions.
 
+We identify the following parameters to be of potential influence for your happiness, life satisfaction, worthwhileness, and anxiety:
+- PUT VARIABLES SELECTED AS CONTROLS FOR Q1
+
+***Now, get ready to discover how to be happy in London.***
+
 <a name = "part1b"></a>
-## 1.2.
+## 1.2. What really makes you happy
 After some visual investigation, we could think that for instance people living in inner London boroughs are happier. So does your housing location really defines your happiness? To answer this, we use different linear regression models. In model 1, we only tried to predict life satisfaction in function of whether the borough was located in inner or outer London. In model 2, we added the possible influence of health and safety in the neighborhood. In model 3 we additionally used the influence of employment rates and income. From this, we conclude the significance and thus importance of parameters defining your life satisfaction, happiness, worthwhileness and anxiety. 
 -> put graph with 100%-pvalue to show significance
 Write conclusions
@@ -58,7 +63,7 @@ But could the standard of living also be used to predict life satisfaction? We c
 
 We see that the crime rates per thousand population alone cannot predict any of these scores, meaning that having high numbers of crimes in your neighborhood doesn't affect your personal life that much (well, until that happens to you).
 
-For the median house price alone, we see that it is very efficient to predict the anxiety score, but not the other scores. FINISH THAT 
+For the median house price alone, we see that it is very efficient to predict the anxiety score, but not the other scores. 
 
 In terms of gross annual pay, it is not surprising to find that earning more money can help reducing your anxiety, as well as increasing your happiness. However, you're not more satisfied with your life if you earn more. 
 
@@ -66,10 +71,11 @@ But what's interesting here, is that how you own your house is a powerful predic
 
 To conclude:
 - Your location does define your life satisfaction, worthwhileness, and happiness, but not your anxiety.
-- However, this al
+- However, some standards of living such as annual pay, house price and how you own your home can also predict these scores.
+
 We can thus answer that life satisfaction can be particularly defined by whether a home was owned outright and by location. 
 
-So to be one of the happiest person of London, you should live in inner London and own your home outright! ***Simple, right?***
+So to be one of the happiest persons of London, you should live in inner London and own your home outright! ***Simple, right?***
 
 But let's go a bit further.
 
@@ -83,7 +89,9 @@ What could make your neighborhood so great compared to others? Let's visualize s
 -> put graphs/figures concerning the boroughs
 
 With this in mind, let's select some factors that could help us identify boroughs with a lot in common. We selected:
-- PUT VARIABLES SELECTED 
+- PUT VARIABLES SELECTED FOR Q2
+
+***Now, let's get into the real stuff.***
 
 <a name = "part2b"></a>
 ## 2.2. How are these groups defined?
@@ -112,12 +120,25 @@ But can we find significant differences between neighborhoods in terms of life s
 
 To conclude, it is possible to group London neighborhoods, showing that well being, security and economic stability **together** are important life components that create some differences between neighborhoods in London.
 
+
+
+**Until now,** we found that location, standards of living, neighborhood and housing conditions can all help predict your happiness, and lead to significant differences between boroughs. We know what this means for you: happier, less anxious, in short, you now have all the keys to have a better life!
+
+But what does this mean for the powerful political men and women of London? How can they win you over?
+
 <a name = "part3"></a>
 # 3. Policital control in council
--> map with political control
+Let's visualize some information about the boroughs in relation to the political party in control there.
+-> map with political control, some variables relating to political control
+
+With all this, we can identify the variables that could influence why a party has the control in council:
+- PUT VARIABLES USED IN Q3
+
+So now, can we find 
 
 <a name = "part3a"></a>
 ## 3.1. Influence of life satisfaction on political control
+Using some logistic regression models, we 
 
 <a name = "part3b"></a>
 ## 3.2. What does this mean for a politician?
