@@ -8,9 +8,9 @@ Housing is an important component of everyone's life. After all, your home is wh
 
 # Why this study?
 
-Cattaneo and al., in their paper *Housing, Health and Happiness*, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program. They found that housing upgrades significantly improve adult welfare, as measured by increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: how does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city? We decided to extend their work by looking at data from housing in London.
+Cattaneo and al., in their paper *Housing, Health and Happiness*, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program, Piso Firme. That program aimed to replace household dirt floors by cement floors to improve standards of living. In particular, what is interesting for us, is that they found that housing upgrades significantly improve adult welfare, as measured by increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: how does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city? We decided to extend their work by looking at data from housing in London.
 
-We explore the possibility to find such housing influence through London boroughs. If our study context is certainly different from theirs (the housing conditions in these two countries are rather different), we also compare information of small closely related locations (London boroughs) to uncover the influence of housing in these neighborhoods on their inhabitants' life. 
+We explore the possibility to find such housing influence through London boroughs. If our study context is certainly different from theirs (the housing conditions in these two countries are rather different, dirt floors are not ), we also compare information of small closely related locations (London boroughs, while they use two twin cities of Mexico) to uncover the influence of housing in these neighborhoods on their inhabitants' life. 
 
 What if we could establish the influence of numerous housing variables, such as prices, neighbourhoods (and conditions) on your life satisfaction and happiness in the city of London? We would be able to tell you where you should live to make your life great!
 But also, can politicians use your housing and neighbourhood conditions to know if you will vote for them? We further extend our research on whether political opinion is defined by these conditions, to find which neighborhoods are won by which party.
@@ -52,7 +52,7 @@ We can deduce that the life satisfaction score, the worthwhileness score as well
 
 However, anxiety is hardly predictable by your location, so maybe try some other things than moving to a new borough to reduce your stress (it will probably cost less anyway).
 
-But could the standard of living be used to predict life satisfaction? We chose to test a prediction with the criteria of salary, median house price, crime rates and if the house was owned outright. Can any of these parameters predict the life satisfation score, happiness score, worthwhileness score or anxiety score? 
+But could the standard of living also be used to predict life satisfaction? We chose to test a prediction with the criteria of salary, median house price, crime rates and if the house was owned outright. Can any of these parameters predict the life satisfation score, happiness score, worthwhileness score or anxiety score? 
 
 -> put results from second figure Q1
 
@@ -62,14 +62,14 @@ For the median house price alone, we see that it is very efficient to predict th
 
 In terms of gross annual pay, it is not surprising to find that earning more money can help reducing your anxiety, as well as increasing your happiness. However, you're not more satisfied with your life if you earn more. 
 
-But what's interesting here, is that how you own your house is a powerful predictor for all 4 scores. Homes owned outright, that is, having full possession of your home (meaning you paid all of it directly with your own money, no loan) has a significant influence on your life satisfaction, happiness, worthwhileness and anxiety.
+But what's interesting here, is that how you own your house is a powerful predictor for all 4 scores. Having your home owned outright, that is, having full possession of your home (meaning you paid all of it directly with your own money, no loan) has a significant influence on your life satisfaction, happiness, worthwhileness and anxiety.
 
 To conclude:
 - Your location does define your life satisfaction, worthwhileness, and happiness, but not your anxiety.
 - However, this al
 We can thus answer that life satisfaction can be particularly defined by whether a home was owned outright and by location. 
 
-So to be one of the happiest person of London, you should live in inner London and own your home outright! **Simple, right?**
+So to be one of the happiest person of London, you should live in inner London and own your home outright! ***Simple, right?***
 
 But let's go a bit further.
 
@@ -80,11 +80,16 @@ We found that location does define your happiness. But are neighboorhoods that d
 <a name = "part2a"></a>
 ## 2.1. Finding borough groups
 What could make your neighborhood so great compared to others? Let's visualize some infos for the boroughs.
--> put graphs/figures with 
+-> put graphs/figures concerning the boroughs
+
+With this in mind, let's select some factors that could help us identify boroughs with a lot in common. We selected:
+- PUT VARIABLES SELECTED 
 
 <a name = "part2b"></a>
 ## 2.2. How are these groups defined?
 It is quite possible to group neighborhoods by looking at well-being, security and economic stability. We were able to find 5 groups of boroughs. By going back to the original data, we can show the groups using a map of London. And well, we find that the boroughs clustered together were usually belonging to the same London region (inner/outer london, geographic location)!
+
+-> present each of the three big groups, give numbers for these groups (for each variable, the mean of each groups for instance)
 
 #### But, what are these two lonely neighborhoods?
 Two neighborhoods cannot be linked to any others? **Why?** 
@@ -94,7 +99,7 @@ If they are solo, it must be because they are very different from the others! Le
 The first outlier is the **City of London**. This does not mean London Town, but rather the historical and central primary business of London. This a major business and financial center, mostly consisting of companies and business group headquarters. Its characteristics are quite different from other boroughs, but what makes it that different? Let's look at some numbers:
 -> put numbers for that neighborhood, in comparison with other neighborhoods)
 
-We see that the City is different on many aspects. For instance, -> put conclusions of numbers for the city of london
+We see that the City is different on many aspects. For instance, -> put conclusions of numbers for the city of london. This explains why the City of London can't be associated to any other borough.
 
 The second outlier is **Westminster**. A very touristic borough with high frequentation rates, where the Westminster abbaye and the Big Ben can be seen. But what makes it so different from others? Let's look at some numbers again.
 -> put numbers 
