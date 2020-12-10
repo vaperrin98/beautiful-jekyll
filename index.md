@@ -8,19 +8,23 @@ Housing is an important component of everyone's life. After all, your home is wh
 
 # Why this study?
 
-Cattaneo and al., in their paper Housing, Health and Happiness, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program. They found that housing upgrades significantly improve adult welfare, as measured by increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: how does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city? We decided to extend their work by looking at a data set on housing in London.
+Cattaneo and al., in their paper Housing, Health and Happiness, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program. They found that housing upgrades significantly improve adult welfare, as measured by increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: how does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city? We decided to extend their work by looking at data from housing in London.
+
 We explore the possibility to find such housing influence through London boroughs. If our study context is certainly different from theirs (the housing conditions in these two countries are rather different), we also compare information of small closely related locations (London boroughs) to uncover the influence of housing in these neighborhoods on their inhabitants' life. 
+
+What if we could establish the influence of numerous housing variables, such as prices, neighbourhoods (and conditions) on your life satisfaction and happiness in the city of London? We would be able to tell you where you should live to make your life great!
+But also, can politicians use your housing and neighbourhood conditions to know if you will vote for them? We further extend our research on whether political opinion is defined by these conditions, to find which neighborhoods are won by which party.
 
 ## Index
 1. [Does location define life satisfaction or is it defined by standard of living (job, house price)?](#part1)
-    1.a. [What could influence your happiness?](#part1a)
-    1.b. [Are you really happier if you live in inner London?](#part1b)
+        1.a. [What could influence your happiness?](#part1a)
+        1.b. [Are you really happier if you live in inner London?](#part1b)
 2. [Can we group neighborhoods by looking at well being, security and economic stability?](#part2)
-    2.a. [Are neighborhoods really that different?](#part2a)
-    2.b. [Borough groups](#part2b)
+        2.a. [Are neighborhoods really that different?](#part2a)
+        2.b. [Borough groups](#part2b)
 3. [Can we predict political control based on life satisfaction and housing conditions?](#part3)
-    3.a. [Do people vote significantly differently based on their life satisfaction and housing?](#part3a)
-    3.b. [Can politicians know your political preferences based on where you live?](#part3b)
+        3.a. [Do people vote significantly differently based on their life satisfaction and housing?](#part3a)
+        3.b. [Can politicians know your political preferences based on where you live?](#part3b)
 [Conclusion](#conclusion)
 
 <a name = "part1"></a>
@@ -35,20 +39,28 @@ To discover what makes people satisfied with their life, we think about what cou
 <a name = "part1b"></a>
 ## 1.b.
 After some investigation, we could think that people living in inner London boroughs are happier. So does your housing location really defines your happiness? To answer this, we use different linear regression models. In model 1, we only tried to predict life satisfaction in function of whether the borough was located in inner or outer London. In model 2, we added the possible influence of health and safety in the neighborhood. In model 3 we additionally used the influence of employment rates and income. From this, we conclude the significance and thus importance of parameters defining your life satisfaction, happiness, worthwhileness and anxiety. 
--> put graph with 100%-pvalue
+-> put graph with 100%-pvalue to show significance
 Write conclusions
 
 <a name = "part2"></a>
 # 2. Neighborhoods
-We found that location does define your happiness. But are neighboorhoods that different? Can we find some differences what would define clusters of boroughs?
+We found that location does define your happiness. But are neighboorhoods that different? Can we find some differences so important that they define clusters of boroughs?
 
 <a name = "part2a"></a>
 ## 2.a. Finding borough groups
-
+What could make your neighborhood so great compared to others? 
 
 <a name = "part2b"></a>
 ## 2.b. How are these groups defined?
 It is quite possible to group neighborhoods by looking at well-being, security and economic stability. We were able to find 5 groups of boroughs. By going back to the original data, we can show the groups using a map of London. And well, we find that the boroughs clustered together were usually belonging to the same London region (inner/outer london, geographic location)!
+
+#### But, what are these two lonely neighborhoods?
+Two neighborhoods cannot be linked to any others? Why??? 
+If they are solo, it must be because they are very different from the others! Let's find out why ...
+
+The first outlier is the City of London. This does not mean London Town, but rather the historical and central primary business 
+
+The City of London is the business district, so it is not surprising for it to be an outlier. After investigation, Westminster is probably an outlier due to its very high crime rates. 
 
 
 <a name = "part3"></a>
