@@ -137,7 +137,7 @@ For this analysis, we will restrict ourselves to the two major londonian parties
 With all this, we can identify the variables that could influence why a party has the control in council in a neighborhood:
 - PUT VARIABLES USED IN Q3
 
-So now, can we predict for which party you vote based on 
+So now, can we predict for which party you vote based on all this information? Let's find out.
 
 <a name = "part3a"></a>
 ## 3.1. Influence of life satisfaction on political control
