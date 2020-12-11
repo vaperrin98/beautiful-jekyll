@@ -30,7 +30,18 @@ But also, can politicians use your housing and neighbourhood conditions to know 
 
 
 Let's first have some insights on the data we have. 
+We have information for the 33 boroughs of London. They are all classified as inner or outer boroughs.
 ![Image](./assets/img/INNER_OUTER.png)
+We also have some other information, such as the age distribution over all boroughs, divided in three classes: 0-15 years old, working-age, and over 65 years old.
+![Image](./assets/img/AGE_DIST.png)
+The housing can be separated in three types, based on how the homes are owned. These three classes are: homes owned outright (that is, full price was paid with the household's own money); homes bought with mortgage or with a loan; homes rented from a local authority or a housing association). Let's see how housing is shared among these three classes.
+![Image](./assets/img/HOUSE_BOUGHT.png)
+As we are also concerned with the political control in council, let's visualise the share of neighborhoods controlled by each party.
+![Image](./assets/img/POLITICAL_PARTIES.png)
+
+Let's also have a look at housing prices across the boroughs. -> put distribution graph
+
+And last but not least: let's see if the four well-being scores variables, being life satisfaction, happiness, worthwhileness and anxiety, are any different between the boroughs. -> put distribution graph for these 4 things
 
 <br>
 <br>
