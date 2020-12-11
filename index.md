@@ -39,14 +39,14 @@ The housing can be separated in three types, based on how the homes are owned. T
 As we are also concerned with the political control in council, let's visualise the share of neighborhoods controlled by each party.
 ![Image](./assets/img/POLITICAL_PARTIES.png)
 
-Let's also have a look at housing prices across the boroughs. -> put distribution graph
+Let's also have a look at housing prices across the boroughs. We see that 
+![Image](./assets/img/HOUSE_PRICE.png)
 
-And last but not least: let's see if the four well-being scores variables, being life satisfaction, happiness, worthwhileness and anxiety, are any different between the boroughs. -> put distribution graph for these 4 things
-
-<br>
-<br>
--> put visualization such as borough number, number inner and outer london
--> pie plot with groups of political countrol, age groups across london as a whole, type of house possession in groups across London
+And last but not least: let's see if the four well-being scores variables, being life satisfaction, happiness, worthwhileness and anxiety, are any different between the boroughs.
+![Image](./assets/img/LIFE_SATIS.png)
+![Image](./assets/img/WORTH.png)
+![Image](./assets/img/HAPPY.png)
+![Image](./assets/img/ANXIETY.png)
 
 
 <a name = "part1"></a>
