@@ -30,6 +30,10 @@ But also, can politicians use your housing and neighbourhood conditions to know 
 
 
 Let's first have some insights on the data we have. 
+![Image](.assets/img/INNER_OUTER.png)
+
+<br>
+<br>
 -> put visualization such as borough number, number inner and outer london
 -> pie plot with groups of political countrol, age groups across london as a whole, type of house possession in groups across London
 
