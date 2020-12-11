@@ -30,7 +30,7 @@ But also, can politicians use your housing and neighbourhood conditions to know 
 
 
 Let's first have some insights on the data we have. 
-![Image](.assets/img/INNER_OUTER.png)
+![Image](./assets/img/INNER_OUTER.png)
 
 <br>
 <br>
