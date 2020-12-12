@@ -10,11 +10,11 @@ Housing is an important component of everyone's life. After all, your home is wh
 
 Cattaneo and al., in their paper *Housing, Health and Happiness*, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program, Piso Firme. That program aimed to replace household dirt floors by cement floors to improve standards of living. In particular, what is interesting for us, is that they found that housing upgrades significantly improve adult welfare, as measured by increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: **How does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city?** We decided to extend their work by looking at data from housing in London.
 
-We explore the possibility to find such housing influence through London boroughs. If our study context is certainly different from theirs (the housing conditions in these two countries are rather different, dirt floors are not ), we also compare information of small closely related locations (London boroughs, while they use two twin cities of Mexico) to uncover the influence of housing in these neighborhoods on their inhabitants' life. 
+We explore the possibility to find such housing influence through London boroughs. If our study context is certainly different from theirs (the housing conditions in these two countries are rather different, dirt floors are not ), we also compare information of small closely related locations (London boroughs, while they use two twin cities of Mexico) to uncover the influence of housing in these neighborhoods on their inhabitants' life. We won't look at health-related happiness in the same way, as their paper investigates issues that they do happen in the London, but mostly not due to housing conditions (anemia, parasites, ...). However, life satisfaction and happiness indices can still be investigated in relationship to other housing conditions. 
 
 What if we could establish the influence of numerous housing variables, such as prices, neighbourhoods (and conditions) on your life satisfaction and happiness in the city of London? We would be able to tell you where you should live to make your life great!
 
-But also, can politicians use your housing and neighbourhood conditions to know if you will vote for them? We further extend our research on whether political opinion is defined by these conditions, to find which neighborhoods are won by which party.
+But also, can politicians use your housing and neighbourhood conditions to know if you will vote for them? We further extend our research on whether political opinion is defined by these conditions. We investigate whether some significant differences can be found between neighborhoods controlled by Labour or Conservative parties.
 
 ## Index
 1. [Does location define life satisfaction or is it defined by standard of living (job, house price)?](#part1)
@@ -23,11 +23,10 @@ But also, can politicians use your housing and neighbourhood conditions to know 
 2. [Can we group neighborhoods by looking at well being, security and economic stability?](#part2)
     1. [Are neighborhoods really that different?](#part2a)
     2. [Borough groups](#part2b)
-3. [Can we predict political control based on life satisfaction and housing conditions?](#part3)
-    1. [Do people vote significantly differently based on their life satisfaction and housing?](#part3a)
-    2. [Can politicians know your political preferences based on where you live?](#part3b)
+3. [Is political control based on life satisfaction and housing conditions?](#part3)
+    1. [Do we observe differences between neighborhoods with different political controls?](#part3a)
+    2. [Can politics explain significant differences between neighborhoods concerning life satisfaction and housing?](#part3b)
 4. [Conclusion](#conclusion)
-
 
 Let's first have some insights on the data we have. 
 We have information for the 33 boroughs of London. They are all classified as inner or outer boroughs.
@@ -39,14 +38,23 @@ The housing can be separated in three types, based on how the homes are owned. T
 As we are also concerned with the political control in council, let's visualise the share of neighborhoods controlled by each party.
 ![Image](./assets/img/POLITICAL_PARTIES.png)
 
-Let's also have a look at housing prices across the boroughs. We see that 
+Let's also have a look at housing prices across the boroughs. We see that one neighborhood in particular shows particularly high prices for housing: Kensington and Chelsea. This neighborhood is considered to be one of the most expensive in London, and the housing prices in this borough clearly reflect that. 
 ![Image](./assets/img/HOUSE_PRICE.png)
 
 And last but not least: let's see if the four well-being scores variables, being life satisfaction, happiness, worthwhileness and anxiety, are any different between the boroughs.
+First looking at the life satisfaction, we see that all boroughs have a score between 7 and 7.6 our of 10, except for the City of London, otherwise all boroughs are within the same range. Why is the City of London so different? Let's see if it's an outlier for the other three scores.
 ![Image](./assets/img/LIFE_SATIS.png)
+
+Let's now have a look at the worthwhileness score across the London boroughs. Here, all boroughs have a score in the same range, around 7.5 out of 10, while again the City of London is quite different from others with a score closer to 7.
 ![Image](./assets/img/WORTH.png)
+
+The happiness score is distributed in the same way. If all boroughs have a happiness score around 7.25, the City of London is the only one with a score inferior to 6.5. 
 ![Image](./assets/img/HAPPY.png)
+
+The difference between the City and the other neighborhoods is even more clearly visible concerning the anxiety score. The City inhabitants have an anxiety level almost twice as high as the other boroughs, with a score of 5.57 out of 10, and a mean anxiety score across boroughs of 3.3. 
 ![Image](./assets/img/ANXIETY.png)
+
+To conclude, we see that the overall range for these four well-being scores is quite small over all boroughs, but we noticed one outlier: the City of London. We will see if that will be visible through the second part of this work when we intend to group neighborhoods together based on life and housing conditions.
 
 
 <a name = "part1"></a>
