@@ -150,7 +150,7 @@ To conclude, it is possible to group London neighborhoods, showing that well bei
 
 **Until now,** we found that location, standards of living, neighborhood and housing conditions can all help predict your happiness, and lead to significant differences between boroughs. We know what this means for you: happier, less anxious, in short, you now have all the keys to have a better life!
 
-But what does all this mean for the powerful political men and women of London? How can they win you over based on what they know about you?
+But what does all this mean for the powerful political men and women of London? Are your political opinions linked to your neighborhood conditions?
 
 <a name = "part3"></a>
 # 3. Policital control in council
@@ -162,7 +162,7 @@ For this analysis, we will restrict ourselves to the two major londonian parties
 With all this, we can identify the variables that could influence why a party has the control in council in a neighborhood:
 - PUT VARIABLES USED IN Q3
 
-So now, can we predict for which party you vote based on all this information? Let's find out.
+So now, can we observe meaningful differences between boroughs with different political controls? Let's find out.
 
 <a name = "part3a"></a>
 ## 3.1. Boroughs with Labour political control and Conservative political control
@@ -170,35 +170,31 @@ Let's look at the distribution of the political control across London boroughs a
 
 Are neighborhoods election results linked to the conditions in the neighborhoods? To identify potential differences between the neighborhoods voting for the different parties, we observe the mean for multiple variables, such as:
 - Employment rate
-- Modelled Household median income estimates
-- Crime rates per thousand population
-- Homes Owned outright
-- Being bought with mortgage or loan
-- Rented from Local Authority or Housing Association
-- Average Age
-- Proportion of population of working-age
-- Proportion of population aged 65 and over
-- Median House Price
-- Percentage of area that is Greenspace
-- Number of cars per household
+- Household income
+- Crime rates
+- How are homes owned
+- Average age, age class proportion
+- House price
+- Greenspace in the neighborhood
+- Number of cars
 - Population density 
-- Life satisfaction score
-- Worthwhileness score
-- Happiness score 
-- Anxiety score 
+- The four well-being indices
 
 Let's then visualise if the characteristics with potentially different means from the list above are indeed differently distributed between labour boroughs and conservative boroughs. -> put all the small graphs
 
-
-We see that
+We see that a lot of parameters seem to have different distributions for the two types of boroughs. We need to verify if there are significant differences.
 
 ***Let's do it!***
 
 <a name = "part3b"></a>
 ## 3.2. Are there significant differences for boroughs with different parties in control?
+Visually, we established the parameters susceptible to be different between labour-controlled boroughs and conservative-controlled boroughs. But can we trust our eyes? We run some statistical tests to check if indeed we can find some statistical differences between the two parties. Here's what we obtain: ->put p-value importance made as Ariane
+
+So we see that indeed, boroughs with different political controls are characterized by different parameter values! It appears that -> put conclusions from the pvalue 
 
 
-Would it be possible to go further?
+
+**Would it be possible to go further?**
 
 With data from other election results, we can see the evolution of the number of boroughs voting for each party. Here we see the number of boroughs controlled by each political party from the 2002 election until the 2018 election results. -> put year election plot
 
