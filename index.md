@@ -201,6 +201,6 @@ With data from other election results, we can see the evolution of the number of
 Collecting year-corresponding data from the variables that seem to have significantly different values in Labour and Conservative boroughs could be used to develop a prediction model, allowing politicians to visualise which neighborhoods they can hope to win based on the life and housing conditions in these neighborhoods.
 
 <a name = "conclusion"></a>
-# Conclusion
+# Conclusion 
 
 [//]:#(---------- END OF WHAT IS VISIBLE ----------------)
