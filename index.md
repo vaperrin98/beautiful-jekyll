@@ -165,25 +165,44 @@ With all this, we can identify the variables that could influence why a party ha
 So now, can we predict for which party you vote based on all this information? Let's find out.
 
 <a name = "part3a"></a>
-## 3.1. Influence of life satisfaction on political control
-Using some logistic regression models, we want to establish the signifiance of multiple parameters in predicting the political contronl in council of a borough, we selected multiple types of variables, belonging to location, happiness, age, life comfort, and security criteria. Here's what we found in terms of importance for each parameter: ->put graph 100%-pvalues
+## 3.1. Boroughs with Labour political control and Conservative political control
+Let's look at the distribution of the political control across London boroughs after the 2014 election. -> put map
 
-Well, it's nice, we now know which factors influence significantly the political orientation of a borough. But what can we do with this?
+Are neighborhoods election results linked to the conditions in the neighborhoods? To identify potential differences between the neighborhoods voting for the different parties, we observe the mean for multiple variables, such as:
+- Employment rate
+- Modelled Household median income estimates
+- Crime rates per thousand population
+- Homes Owned outright
+- Being bought with mortgage or loan
+- Rented from Local Authority or Housing Association
+- Average Age
+- Proportion of population of working-age
+- Proportion of population aged 65 and over
+- Median House Price
+- Percentage of area that is Greenspace
+- Number of cars per household
+- Population density 
+- Life satisfaction score
+- Worthwhileness score
+- Happiness score 
+- Anxiety score 
 
-Let's say that we want to predict for politicians the political orientation of a neighborhood they like to win.
+Let's then visualise if the characteristics with potentially different means from the list above are indeed differently distributed between labour boroughs and conservative boroughs. -> put all the small graphs
+
+
+We see that
 
 ***Let's do it!***
 
 <a name = "part3b"></a>
-## 3.2. What does this mean for a politician?
-We selected potentially interesting variables. From this, we predict the majority party of each borough, and we get a 67.5% prediction accuracy (meh not too bad). Let's see how this accuracy transcribes geographically.
+## 3.2. Are there significant differences for boroughs with different parties in control?
 
--> put map of prediction compared to reality
--> put confusion matrix
 
-We see that we are not too far from reality! But let's find a reason for all the wrongly predicted boroughs ...
--> explain class imbalance
--> try the prediction of percentage and then choose best percentage as winning party
+Would it be possible to go further?
+
+With data from other election results, we can see the evolution of the number of boroughs voting for each party. Here we see the number of boroughs controlled by each political party from the 2002 election until the 2018 election results. -> put year election plot
+
+Collecting year-corresponding data from the variables that seem to have significantly different values in Labour and Conservative boroughs could be used to develop a prediction model, allowing politicians to visualise which neighborhoods they can hope to win based on the life and housing conditions in these neighborhoods.
 
 <a name = "conclusion"></a>
 # Conclusion
