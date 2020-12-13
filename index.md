@@ -68,15 +68,35 @@ Are you more satisfied with your life if you live in a particular borough of Lon
 To discover what makes people satisfied with their life, we think about what could make people happy with their housing conditions. Let's observe for instance the employment rate, the household income, the life satisfaction score, and the happiness score of Londong boroughs in relation to their location.
 -> put the graphs investigating the variables used in this question + describe this and make the conclusions.
 
-We identify the following parameters to be of potential influence for your happiness, life satisfaction, worthwhileness, and anxiety:
-- PUT VARIABLES SELECTED AS CONTROLS FOR Q1
+We identify the following parameters to be of potential influence for your happiness, life satisfaction, worthwhileness, and anxiety. We can separate them into four groups: 
+
+Health: 
+- % of area that is Greenspace, 2005                             
+- Male life expectancy, (2012-14)                                
+- Female life expectancy, (2012-14)
+
+Safety: 
+- Crime rates per thousand population 2014/15
+
+Income: 
+- Median House Price, 2014                                     
+- Being bought with mortgage or loan, (2014) %                    
+- Rented from Local Authority or Housing Association, (2014) %
+- Modelled Household median income estimates 2012/13   
+
+Employment rates: 
+- Unemployment rate (2015)                                        
+- Gross Annual Pay, (2015)                                           
+- Jobs Density, 2014   
+
 
 ***Now, get ready to discover how to be happy in London.***
 
 <a name = "part1b"></a>
 ## 1.2. What really makes you happy
 After some visual investigation, we could think that, for instance, people living in inner London boroughs are happier. So does your housing location really define your happiness? To answer this, we use different linear regression models. In model 1, we only tried to predict life satisfaction in function of whether the borough was located in inner or outer London. In model 2, we added the possible influence of health and safety in the neighborhood. In model 3 we additionally used the influence of employment rates and income. From this, we conclude the significance and thus importance of parameters defining your life satisfaction, happiness, worthwhileness and anxiety. 
--> put graph with 100%-pvalue to show significance
+
+![Image](./assets/img/PVALUE1.png)
 Write conclusions
 
 We can deduce that the life satisfaction score, the worthwhileness score as well as the happiness score can very well be predicted from location in all three models. Well, this means that all these scores can be predicted by location. Sorry folks, but people living in inner London are indeed happier!
