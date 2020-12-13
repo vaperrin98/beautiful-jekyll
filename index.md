@@ -113,7 +113,7 @@ For the median house price alone, we see that it is very efficient to predict th
 
 In terms of gross annual pay, it is not surprising to find that earning more money can help reducing your anxiety, as well as increasing your happiness. However, you're not more satisfied with your life if you earn more. 
 
-But what's interesting here, is that how you own your house is a powerful predictor for all 4 scores. Having your home owned outright, that is, having full possession of your home (meaning you paid all of it directly with your own money, no loan) has a significant influence on your life satisfaction, happiness, worthwhileness and anxiety.
+But what's interesting here, is that how you own your house is a powerful predictor for all 4 scores. Having your home owned outright, that is, having full possession of your home (you paid all of it directly with your own money and received no loan) has a significant influence on your life satisfaction, happiness, worthwhileness and anxiety.
 
 To conclude:
 - Your location does define your life satisfaction, worthwhileness, and happiness, but not your anxiety.
