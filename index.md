@@ -97,6 +97,9 @@ Employment rates:
 After some visual investigation, we could think that, for instance, people living in inner London boroughs are happier. So does your housing location really define your happiness? To answer this, we use different linear regression models. In model 1, we only tried to predict life satisfaction in function of whether the borough was located in inner or outer London. In model 2, we added the possible influence of health and safety in the neighborhood. In model 3 we additionally used the influence of employment rates and income. From this, we conclude the significance and thus importance of parameters defining your life satisfaction, happiness, worthwhileness and anxiety. 
 
 ![Image](./assets/img/PVALUE1.png)
+
+The black line on the histogram is here to show you that any bar that goes further than this has a p-value of less than 0.05 which means that we can reject the null hypothesis with a 5% probability that the null is correct (and the results are random). We can therefore accept the alternative hypothesis that all these scores can be predicted bylocation. 
+(IS THAT WHAT YOU WANTED AS CONCLUSION ?)
 Write conclusions
 
 We can deduce that the life satisfaction score, the worthwhileness score as well as the happiness score can very well be predicted from location in all three models. Well, this means that all these scores can be predicted by location. Sorry folks, but people living in inner London are indeed happier!
@@ -106,6 +109,7 @@ However, anxiety is hardly predictable by your location, so maybe try some other
 We also wonder if the standard of living also be used to predict life satisfaction? We chose to test a prediction with the criteria of salary, median house price, crime rates and if the house was owned outright. Can any of these parameters predict the life satisfation score, happiness score, worthwhileness score or anxiety score? 
 
 ![Image](./assets/img/PVALUES2.png)
+Just like in the figure above, the black line on the histogram is here to show you which p-value is lower than 0.05 and thus what null hypothesis we can reject with a 5% probability that the null is correct (and the results are random). 
 
 We see that the crime rates per thousand population alone cannot predict any of these scores, meaning that having high numbers of crimes in your neighborhood doesn't affect your personal life that much (well, until that happens to you).
 
