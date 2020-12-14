@@ -143,39 +143,36 @@ What could make your neighborhood so great compared to others? Let's visualize s
 -> put graphs/figures concerning the boroughs
 
 With this in mind, let's select some factors that could help us identify boroughs with a lot in common. We selected:
-- Employment rate (%) (2015)
-- Modelled Households median income estimates 2012/13
-- Crime rates per thousand population 2014/15
-- Homes Owned outright, 2014 (%)
-- Being bought with mortgage or loan, (2014) %
-- Rented from Local Authority or Housing Association, (2014) %
-- Life satisfaction score 2011-14 (out of 10)
-- Worthwhileness score 2011-14 (out of 10)
-- Happiness score 2011-14 (out of 10)
-- Anxiety score 2011-14 (out of 10)
+- Employment rate
+- Households median income
+- Crime rates per thousand population 
+- Life satisfaction score 
+- Worthwhileness score 
+- Happiness score 
+- Anxiety score
 
 ***Now, let's dive into the real stuff.***
 
 <a name = "part2b"></a>
 ## 2.2. How are these groups defined?
-It is quite possible to group neighborhoods by looking at well-being, security and economic stability. We were able to find 5 groups of boroughs. By going back to the original data, we can show the groups using a map of London. And well, we find that the boroughs clustered together were usually belonging to the same London region (inner/outer london, geographic location)!
+It is quite possible to group neighborhoods by looking at well-being, security and economic stability. We were able to find 5 groups of boroughs. By going back to the original data, we can show the groups using a map of London. 
+Here is a map where each borough is colored in the cluster to which it belongs after the PCA and k-means clustering.
 
--> present each of the three big groups, give numbers for these groups (for each variable, the mean of each groups for instance)
+![Image](./assets/img/MAP_CLUSTERS.png)
+
+And well, we find that the boroughs clustered together were usually belonging to the same London region (inner/outer london, geographic location)! This is interesting as we didn't use the location information to form the clusters: it means that the variables used in the PCA contain information that can be thought as redondant to the location information.
+Concerning the three big groups (that is, the clusters with more than one borough), we can also visualize some differences in the variables chosen, such as mean differences. This could be further investigated through some statistical tests, but we do find that the neighborhoods in each cluster are quite different from each others, as shown here! -> put bar plot comparison for all variables studied (4 well-being + income + employment + crime rates)
 
 #### But, what are these two lonely neighborhoods?
 Two neighborhoods cannot be linked to any others? **Why?** 
 
 If they are flying solo, it must be because they are very different from the others! Let's find out why ...
 
-The first outlier is the **City of London**. This does not mean London as a whole, but rather the historical and central primary business center of London. This a major business and financial center, mostly consisting of companies and business group headquarters. Its characteristics are quite different from other boroughs, but what makes it that different? Let's look at some numbers:
--> put numbers for that neighborhood, in comparison with other neighborhoods)
+The first outlier is the **City of London**. This does not mean London as a whole, but rather the historical and central primary business center of London. This a major business and financial center, mostly consisting of companies and business group headquarters. Its characteristics are quite different from other boroughs, but what makes it that different? Let's look at some numbers: in comparison to the overall data for the other boroughs, we find that the City of London is an outlier for four of the seven variables used in this part of study. Indeed, it is an extreme borough for all the well-being variables, with the lowest happiness, life satisfaction and worthwhileness scores, and the highest anxiety scores. 
 
-We see that the City is different on many aspects. For instance, -> put conclusions of numbers for the city of london. This explains why the City of London can't be associated to any other borough.
+We see that the City is different from other boroughs, particularly concerning the well-being of its inhabitants.This explains why the City of London can't be associated to any other borough.
 
-The second outlier is **Westminster**. A very touristic borough with high frequentation rates, where the Westminster Abbaye and the Big Ben can be seen. But what makes it so different from others? Let's look at some numbers again.
--> put numbers 
-
-If the large majority of parameters are within the normal range, one variable is particularly high in this borough: the crime rates. The crime rates per thousand population in Westminster is almost 3 times higher as the london mean crime rates per thousand population. (put small barplot for this). This added to the tourists everywhere, probably doesn't make it a great place to live in London ...
+The second outlier is **Westminster**. A very touristic borough with high frequentation rates, where the Westminster Abbaye and the Big Ben can be seen. But what makes it so different from others? Let's look at some numbers again. Westminster borough is actually quite normal compared to the overall data of the other boroughs. But if the large majority of parameters are within the normal range, one variable is particularly high in this borough: the crime rates. The crime rates per thousand population in Westminster is almost 3 times higher as the london mean crime rates per thousand population. This added to the tourists everywhere, probably doesn't make it a great place to live in London ...
 
 If we did find some borough clusters, we see that it isn't easy to group the neighborhoods in very distinct clusters. This is not really surprising, as real human data is usually defined by many variables, and they are probably not all included in that analysis. 
 
@@ -191,21 +188,20 @@ But what does all this mean for the powerful political men and women of London? 
 
 <a name = "part3"></a>
 # 3. Policital control in council
-Let's visualize some information about the boroughs in relation to the political party in control there.
--> map with political control, some variables in relation to political control
+Let's visualize some information how the political parties control is distributed across boroughs after the 2014 election.
+![Image](./assets/img/MAP_POL.png)
 
-For this analysis, we will restrict ourselves to the two major londonian parties, the Labour and Conservative parties.
+Visually, there does not appear to be any pattern of political parties in control across London. For this analysis, we will restrict ourselves to the two major londonian parties, the Labour and Conservative parties.
 
-With all this, we can identify the variables that could influence why a party has the control in council in a neighborhood:
-- PUT VARIABLES USED IN Q3
-
-So now, can we observe meaningful differences between boroughs with different political controls? Let's find out.
+The question is, can we identify the variables that could influence why a party has the control in council in a neighborhood? That is, can we observe meaningful differences between boroughs with different political controls? Let's find out.
 
 <a name = "part3a"></a>
 ## 3.1. Boroughs with Labour political control and Conservative political control
-Let's look at the distribution of the political control across London boroughs after the 2014 election. -> put map
+Are neighborhoods election results linked to the conditions in the neighborhoods? To identify potential differences between the neighborhoods voting for the different parties, we observe the mean for multiple variables, with an analysis divided into two parts:
 
-Are neighborhoods election results linked to the conditions in the neighborhoods? To identify potential differences between the neighborhoods voting for the different parties, we observe the mean for multiple variables, such as:
+First, we will look at the four well-being indices (life satisfaction, happiness, worthwhileness and anxiety), to investigate whether there are some significant differences in well-being between labour-controlled and conservative-controlled boroughs.
+
+Then, we will have the look at the following variables:
 - Employment rate
 - Household income
 - Crime rates
@@ -215,9 +211,10 @@ Are neighborhoods election results linked to the conditions in the neighborhoods
 - Greenspace in the neighborhood
 - Number of cars
 - Population density 
-- The four well-being indices
 
-Let's then visualise if the characteristics with potentially different means from the list above are indeed differently distributed between labour boroughs and conservative boroughs. -> put all the small graphs
+First, let's visualise if the variables selected show a mean difference between the two political groups of boroughs. -> mean difference graph
+
+Let's then visualise if the characteristics with potentially different means from the two parts above list are indeed differently distributed between labour boroughs and conservative boroughs. -> put all the small graphs
 
 We see that a lot of parameters seem to have different distributions for the two types of boroughs. We need to verify if there are significant differences.
 
