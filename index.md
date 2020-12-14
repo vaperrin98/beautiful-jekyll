@@ -212,9 +212,7 @@ Then, we will have the look at the following variables:
 - Number of cars
 - Population density 
 
-First, let's visualise if the variables selected show a mean difference between the two political groups of boroughs. -> mean difference graph
-
-Let's then visualise if the characteristics with potentially different means from the two parts above list are indeed differently distributed between labour boroughs and conservative boroughs. -> put all the small graphs
+First, we want to see if the variables selected show a mean difference between the two political groups of boroughs. Let's visualise if the characteristics with potentially different means from the two parts above list are indeed differently distributed between labour boroughs and conservative boroughs. As examples, we show  -> put all the small graphs
 
 We see that a lot of parameters seem to have different distributions for the two types of boroughs. We need to verify if there are significant differences.
 
