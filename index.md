@@ -4,13 +4,14 @@ title: Happiness & Housing in London
 subtitle: Does housing has an influence on people's life satisfaction and happiness? Could the 33 boroughs of London allow us to uncover the housing and neighborhood conditions that make people happy?
 ---
 
-Housing is an important component of everyone's life. After all, your home is where you spend most of your week, particularly in these trouble times. Does your neighborhood, that you now know by heart since lockdown, contribute to your happiness?
+Housing is an important component of everyone's life. After all, your home is where you spend most of your time, particularly in these trouble times. Does your neighborhood, that you have now come to know by heart since lockdown, contribute to your happiness?
 
 # Why this study?
 
-Cattaneo and al., in their paper *Housing, Health and Happiness*, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program, Piso Firme. That program aimed to replace household dirt floors by cement floors to improve standards of living. In particular, what is interesting for us, is that they found that housing upgrades significantly improve adult welfare, as measured by increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: **How does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city?** We decided to extend their work by looking at data from housing in London.
+Cattaneo and al., in their paper *Housing, Health and Happiness*, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program, Piso Firme. That program aimed to replace household dirt floors by cement floors to improve standards of living. What is particularly interesting for us is that they found that housing upgrades significantly improve adult welfare, as measured by an increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: **How does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city?** We decided to extend their work by looking at data about housing in London.
 
-We explore the possibility to find such housing influence through London boroughs. If our study context is certainly different from theirs (the housing conditions in these two countries are rather different, dirt floors are not ), we also compare information of small closely related locations (London boroughs, while they use two twin cities of Mexico) to uncover the influence of housing in these neighborhoods on their inhabitants' life. We won't look at health-related happiness in the same way, as their paper investigates issues that they do happen in the London, but mostly not due to housing conditions (anemia, parasites, ...). However, life satisfaction and happiness indices can still be investigated in relationship to other housing conditions. 
+We explore the possibility to find such an influence from housing in the London boroughs. If the context of this second study is certainly different from theirs (the housing conditions in these two countries are rather different), we do also compare information of small closely related locations (London boroughs in our case and two twin cities of Mexico in theirs) to uncover the influence of housing conditions on their inhabitants' life in these neighborhoods. 
+We won't look at health-related happiness in the same way, as this first paper investigates issues that they do happen in the London, but mostly not due to housing conditions (anemia, parasites, ...). However, life satisfaction and happiness indices can still be investigated in relationship to other housing conditions. 
 
 What if we could establish the influence of numerous housing variables, such as prices, neighbourhoods (and conditions) on your life satisfaction and happiness in the city of London? We would be able to tell you where you should live to make your life great!
 
@@ -31,11 +32,11 @@ But also, can politicians use your housing and neighbourhood conditions to know 
 Let's first have some insights on the data we have. 
 We have information for the 33 boroughs of London. They are all classified as inner or outer boroughs.
 ![Image](./assets/img/INNER_OUTER.png)
-We also have some other information, such as the age distribution over all boroughs, divided in three classes: 0-15 years old, working-age, and over 65 years old.
+We also know the age distribution over all boroughs, divided into three classes: 0-15 years old, working-age, and over 65 years old.
 ![Image](./assets/img/AGE_DIST.png)
-The housing can be separated in three types, based on how the homes are owned. These three classes are: homes owned outright (that is, full price was paid with the household's own money); homes bought with mortgage or with a loan; homes rented from a local authority or a housing association). Let's see how housing is shared among these three classes.
+Housing can be separated into three categories, based on how the homes were acquired. These three classes are: homes owned outright (that is, full price was paid with the household's own money); homes bought with mortgage or with a loan; homes rented from a local authority or a housing association). Let's see how housing is shared among these three classes.
 ![Image](./assets/img/HOUSE_BOUGHT.png)
-As we are also concerned with the political control in council, let's visualise the share of neighborhoods controlled by each party.
+As we are also interested in the political control in council, let's visualise the share of neighborhoods controlled by each party.
 ![Image](./assets/img/POLITICAL_PARTIES.png)
 
 Let's also have a look at housing prices across the boroughs. We see that one neighborhood in particular shows particularly high prices for housing: Kensington and Chelsea. This neighborhood is considered to be one of the most expensive in London, and the housing prices in this borough clearly reflect that. 
@@ -54,7 +55,7 @@ The happiness score is distributed in the same way. If all boroughs have a happi
 The difference between the City and the other neighborhoods is even more clearly visible concerning the anxiety score. The City inhabitants have an anxiety level almost twice as high as the other boroughs, with a score of 5.57 out of 10, and a mean anxiety score across boroughs of 3.3. 
 ![Image](./assets/img/ANXIETY.png)
 
-To conclude, we see that the overall range for these four well-being scores is quite small over all boroughs, but we noticed one outlier: the City of London. We will see if that will be visible through the second part of this work when we intend to group neighborhoods together based on life and housing conditions.
+To conclude, we see that the overall range for these four well-being scores is quite small for all boroughs except for one outlier: the City of London. We will see if that will be visible through the second part of this work when we intend to group neighborhoods together based on life and housing conditions.
 
 
 <a name = "part1"></a>
@@ -139,7 +140,16 @@ What could make your neighborhood so great compared to others? Let's visualize s
 -> put graphs/figures concerning the boroughs
 
 With this in mind, let's select some factors that could help us identify boroughs with a lot in common. We selected:
-- PUT VARIABLES SELECTED FOR Q2
+- Employment rate (%) (2015)
+- Modelled Households median income estimates 2012/13
+- Crime rates per thousand population 2014/15
+- Homes Owned outright, 2014 (%)
+- Being bought with mortgage or loan, (2014) %
+- Rented from Local Authority or Housing Association, (2014) %
+- Life satisfaction score 2011-14 (out of 10)
+- Worthwhileness score 2011-14 (out of 10)
+- Happiness score 2011-14 (out of 10)
+- Anxiety score 2011-14 (out of 10)
 
 ***Now, let's dive into the real stuff.***
 
@@ -152,17 +162,17 @@ It is quite possible to group neighborhoods by looking at well-being, security a
 #### But, what are these two lonely neighborhoods?
 Two neighborhoods cannot be linked to any others? **Why?** 
 
-If they are solo, it must be because they are very different from the others! Let's find out why ...
+If they are flying solo, it must be because they are very different from the others! Let's find out why ...
 
-The first outlier is the **City of London**. This does not mean London Town, but rather the historical and central primary business of London. This a major business and financial center, mostly consisting of companies and business group headquarters. Its characteristics are quite different from other boroughs, but what makes it that different? Let's look at some numbers:
+The first outlier is the **City of London**. This does not mean London as a whole, but rather the historical and central primary business center of London. This a major business and financial center, mostly consisting of companies and business group headquarters. Its characteristics are quite different from other boroughs, but what makes it that different? Let's look at some numbers:
 -> put numbers for that neighborhood, in comparison with other neighborhoods)
 
 We see that the City is different on many aspects. For instance, -> put conclusions of numbers for the city of london. This explains why the City of London can't be associated to any other borough.
 
-The second outlier is **Westminster**. A very touristic borough with high frequentation rates, where the Westminster abbaye and the Big Ben can be seen. But what makes it so different from others? Let's look at some numbers again.
+The second outlier is **Westminster**. A very touristic borough with high frequentation rates, where the Westminster Abbaye and the Big Ben can be seen. But what makes it so different from others? Let's look at some numbers again.
 -> put numbers 
 
-If the large majority of parameters are within the normal range, one variable is particularly high in this borough: the crime rates. The crime rates per thousand population in Westminster is almost 3 times higher as the london mean crime rates per thousand population. (put small barplot for this). This added to the tourists everywhere, probably not a great place to live in London ...
+If the large majority of parameters are within the normal range, one variable is particularly high in this borough: the crime rates. The crime rates per thousand population in Westminster is almost 3 times higher as the london mean crime rates per thousand population. (put small barplot for this). This added to the tourists everywhere, probably doesn't make it a great place to live in London ...
 
 If we did find some borough clusters, we see that it isn't easy to group the neighborhoods in very distinct clusters. This is not really surprising, as real human data is usually defined by many variables, and they are probably not all included in that analysis. 
 
