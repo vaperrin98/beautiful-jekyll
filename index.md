@@ -131,6 +131,7 @@ We can thus answer that life satisfaction can be particularly defined by whether
 So to be one of the happiest persons of London, you should live in inner London and own your home outright! ***Simple, right?***
 
 But let's go a bit further.
+<a href="#top">Back to top</a> 
 
 <a name = "part2"></a>
 # 2. Neighborhoods
@@ -181,7 +182,7 @@ If we did find some borough clusters, we see that it isn't easy to group the nei
 But can we find significant differences between neighborhoods in terms of life satisfaction, happiness, worthwhileness and anxiety, significant enough to uncover groups of neighborhoods? We found that it was not the case. This indicates that well-being variables by themselves cannot explain the neighborhood groups.
 
 To conclude, it is possible to group London neighborhoods, showing that well being, security and economic stability **together** are important life components that create some differences between neighborhoods in London.
-
+<a href="#top">Back to top</a> 
 
 
 **Until now,** we found that location, standards of living, neighborhood and housing conditions can all help predict your happiness, and lead to significant differences between boroughs. We know what this means for you: happier, less anxious, in short, you now have all the keys to have a better life!
@@ -235,6 +236,7 @@ So we see that indeed, boroughs with different political controls are characteri
 With data from other election results, we can see the evolution of the number of boroughs voting for each party. Here we see the number of boroughs controlled by each political party from the 2002 election until the 2018 election results. -> put year election plot
 
 Collecting year-corresponding data from the variables that seem to have significantly different values in Labour and Conservative boroughs could be used to develop a prediction model, allowing politicians to visualise which neighborhoods they can hope to win based on the life and housing conditions in these neighborhoods.
+<a href="#top">Back to top</a> 
 
 <a name = "conclusion"></a>
 # Conclusion 
