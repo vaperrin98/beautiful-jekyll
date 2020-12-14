@@ -58,7 +58,7 @@ The difference between the City and the other neighborhoods is even more clearly
 ![Image](./assets/img/ANXIETY.png)
 
 To conclude, we see that the overall range for these four well-being scores is quite small for all boroughs except for one outlier: the City of London. We will see if that will be visible through the second part of this work when we intend to group neighborhoods together based on life and housing conditions.
-
+<a href="#top">Back to top</a> 
 
 <a name = "part1"></a>
 # 1. Location and life satisfaction
