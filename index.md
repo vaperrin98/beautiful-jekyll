@@ -6,6 +6,8 @@ subtitle: Does housing has an influence on people's life satisfaction and happin
 
 Housing is an important component of everyone's life. After all, your home is where you spend most of your time, particularly in these trouble times. Does your neighborhood, that you have now come to know by heart since lockdown, contribute to your happiness?
 
+<iframe width="420" height="315" src="https://tenor.com/view/question-asking-question-mark-dwight-schrute-the-office-gif-16512390" frameborder="0" allowfullscreen></iframe>
+
 # Why this study?
 
 Cattaneo and al., in their paper *Housing, Health and Happiness*, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program, Piso Firme. That program aimed to replace household dirt floors by cement floors to improve standards of living. What is particularly interesting for us is that they found that housing upgrades significantly improve adult welfare, as measured by an increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: **How does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city?** We decided to extend their work by looking at data about housing in London.
