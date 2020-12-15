@@ -8,6 +8,7 @@ Housing is an important component of everyone's life. After all, your home is wh
 
 ![Alt Text](https://media.giphy.com/media/5wWf7GR2nhgamhRnEuA/giphy.gif)
 
+
 # Why this study?
 
 Cattaneo and al., in their paper *Housing, Health and Happiness*, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program, Piso Firme. That program aimed to replace household dirt floors by cement floors to improve standards of living. What is particularly interesting for us is that they found that housing upgrades significantly improve adult welfare, as measured by an increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: **How does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city?** We decided to extend their work by looking at data about housing in London.
@@ -65,7 +66,7 @@ To conclude, we see that the overall range for these four well-being scores is q
 Are you more satisfied with your life if you live in a particular borough of London? For instance, are inhabitants of Kensington and Chelsea, the most expensive borough of London, happier than others? 
 
 ***Let's find out.***
-
+![Alt Text](https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif)
 <a name = "part1a"></a>
 ## 1.1. What could influence your happiness?
 To discover what makes people satisfied with their life, we think about what could make people happy with their housing conditions. Let's observe for instance the employment rate, the household income, the life satisfaction score, and the happiness score of Londong boroughs in relation to their location.
