@@ -160,7 +160,7 @@ With this in mind, let's select some factors that could help us identify borough
 It is quite possible to group neighborhoods by looking at well-being, security and economic stability. We were able to find 5 groups of boroughs. By going back to the original data, we can show the groups using a map of London. 
 Here is a map where each borough is colored in the cluster to which it belongs after the PCA and k-means clustering.
 
-<img src="./assets/img/MAP_CLUSTERS.png" width="10" />
+<img src="./assets/img/MAP_CLUSTERS.png" width="100" />
 
 And well, we find that the boroughs clustered together were usually belonging to the same London region (inner/outer london, geographic location)! This is interesting as we didn't use the location information to form the clusters: it means that the variables used in the PCA contain information that can be thought as redondant to the location information.
 Concerning the three big groups (that is, the clusters with more than one borough), we can also visualize some differences in the variables chosen, such as mean differences. This could be further investigated through some statistical tests, but we do find that the neighborhoods in each cluster are quite different from each others, as shown here! -> put bar plot comparison for all variables studied (4 well-being + income + employment + crime rates)
