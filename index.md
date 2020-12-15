@@ -225,7 +225,7 @@ So we see that indeed, boroughs with different political controls are characteri
 
 Also, we didn't expect to have such strong statistical differences between the two groups for the life satisfaction, happiness, and worthwhileness! 
 
-But what's the interest of all this?
+But what's the interest of all this? 
 
 **Would it be possible to go further?**
 
