@@ -20,6 +20,7 @@ What if we could establish the influence of numerous housing variables, such as 
 
 But also, can politicians use your housing and neighbourhood conditions to know if you will vote for them? We further extend our research on whether political opinion is defined by these conditions. We investigate whether some significant differences can be found between neighborhoods controlled by Labour or Conservative parties.
 
+
 ## Index
 1. [Does location define life satisfaction or is it defined by standard of living (job, house price)?](#part1)
     1. [What could influence your happiness?](#part1a)
@@ -32,8 +33,6 @@ But also, can politicians use your housing and neighbourhood conditions to know 
     2. [Can politics explain significant differences between neighborhoods concerning life satisfaction and housing?](#part3b)
 4. [Conclusion](#conclusion)
 
-
-![Alt Text](https://media.giphy.com/media/l0IylQoMkcbZUbtKw/giphy.gif)
 
 Let's first have some insights on the data we have. 
 We have information for the 33 boroughs of London. They are all classified as inner or outer boroughs.
