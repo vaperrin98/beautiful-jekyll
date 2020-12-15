@@ -65,8 +65,10 @@ To conclude, we see that the overall range for these four well-being scores is q
 # 1. Location and life satisfaction
 Are you more satisfied with your life if you live in a particular borough of London? For instance, are inhabitants of Kensington and Chelsea, the most expensive borough of London, happier than others? 
 
-***Let's find out.***
 ![Alt Text](https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif)
+
+***Let's find out.***
+
 <a name = "part1a"></a>
 ## 1.1. What could influence your happiness?
 To discover what makes people satisfied with their life, we think about what could make people happy with their housing conditions. Let's observe for instance the employment rate, the household income, the life satisfaction score, and the happiness score of Londong boroughs in relation to their location.
