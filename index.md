@@ -92,8 +92,8 @@ After some visual investigation, we could think that, for instance, people livin
 
 ![Image](./assets/img/PVALUES1.png)
 
-The red line on the histogram is here to show you that any bar that goes further than this has a p-value of less than 0.05 (we chose to plot 1 - value for visualisation reasons, so any bar going further than 0.95 corresponds to a pvalue inferior to 0.05), which means that location is significant to assess all these scores at a 5% significance level.
-We can deduce that the life satisfaction score, the worthwhileness score as well as the happiness score can very well be predicted from location in all three models. Well, this means that all these scores can be predicted by location. Sorry folks, but people living in inner London are indeed happier!
+The red line on the histogram is here to show you that any bar that goes further than this has a p-value of less than 0.05 (we chose to plot 1 - pvalue for visualisation reasons, so any bar going further than 0.95 corresponds to a pvalue inferior to 0.05), which means that location is significant to assess all these scores at a 5% significance level.
+We can deduce that the life satisfaction score, the worthwhileness score as well as the happiness score can very well be predicted from location in all three models. Well, this means that all these scores can be predicted by location. **Sorry folks, but people living in inner London are indeed happier!**
 
 However, anxiety is hardly predictable by your location, so maybe try some other things than moving to a new borough to reduce your stress (it will probably cost less anyway).
 
@@ -110,7 +110,7 @@ In terms of gross annual pay, it is not surprising to find that earning more mon
 
 But what's interesting here, is that how you own your house is a powerful predictor for all 4 scores. Having your home owned outright, that is, having full possession of your home (you paid all of it directly with your own money and received no loan) has a significant influence on your life satisfaction, happiness, worthwhileness and anxiety.
 
-To conclude:
+**To conclude:**
 - Your location does define your life satisfaction, worthwhileness, and happiness, but not your anxiety.
 - However, some standards of living such as annual pay, house price and how you own your home can also predict these scores.
 
@@ -136,7 +136,7 @@ With this in mind, let's select some factors that could help us identify borough
 
 <a name = "part2b"></a>
 ## 2.2. How are these groups defined?
-It is quite possible to group neighborhoods by looking at well-being, security and economic stability. We were able to find 5 groups of boroughs. By going back to the original data, we can show the groups using a map of London. 
+It is quite possible to group neighborhoods by looking at well-being, security and economic stability. We were able to find **5 groups of boroughs**. By going back to the original data, we can show the groups using a map of London. 
 Here is a map where each borough is colored in the cluster to which it belongs after the PCA and k-means clustering.
 
 <p align="center">
@@ -144,7 +144,7 @@ Here is a map where each borough is colored in the cluster to which it belongs a
  </p>
 
 And well, we find that the boroughs clustered together were usually belonging to the same London region (inner/outer london, geographic location)! This is interesting as we didn't use the location information to form the clusters: it means that the variables used in the PCA contain information that can be thought as redondant to the location information.
-Concerning the three big groups (that is, the clusters with more than one borough), we can also visualize some differences in the variables chosen, such as mean differences. This could be further investigated through some statistical tests, but we do find that the neighborhoods in each cluster are quite different from each others, as shown here! -> put bar plot comparison for all variables studied (4 well-being + income + employment + crime rates)
+Concerning the three big groups (that is, the clusters with more than one borough), we can also have a look at the differences for the variables chosen, such as mean differences. This could be further investigated through some statistical tests, but we do find that the neighborhoods in each cluster are quite different from each others when comparing the means for multiple variables available (such as crime rates, employment, well-being).
 
 #### But, what are these two lonely neighborhoods?
 Two neighborhoods cannot be linked to any others? **Why?** 
@@ -214,14 +214,14 @@ In the end, we found that a lot of parameters seem to have different distributio
 Visually, we have established the parameters susceptible to be different between labour-controlled boroughs and conservative-controlled boroughs. But can we trust our eyes? We run some statistical tests to check if indeed we can find some statistical differences between the boroughs controlled by the two parties. Here's what we obtain, for the four well-being variables:
 ![Image](./assets/img/PVALUES3.png)
 
-We used the same choice of visualisation as in the part 1 of our study, by plotting 1-pvalue. However here the red line indicates the 0.99 value, meaning that any bar going further indicates a pvalue lower than 0.01. We see that indeed, as expected from the distribution seen before, happiness, life satisfaction and worthwhileness means are significantly different between the two political types of boroughs, at a signifiance level of 0.01. However, it is not the cause for the anxiety score, as expected from the distribution.
+We used the same choice of visualisation as in the part 1 of our study, by plotting 1-pvalue. However here the red line indicates the 0.99 value, meaning that any bar going further indicates a pvalue lower than 0.01. We see that indeed, as expected from the distribution seen before, **happiness, life satisfaction and worthwhileness means are significantly different** between the two political types of boroughs, at a signifiance level of 0.01. However, it is not the cause for the anxiety score, as expected from the distribution.
 
 We repeated the statistical tests with the other variables of interest mentioned before, and here's what we obtain:
 ![Image](./assets/img/PVALUES4.png)
 
 Here we used a significance level of 0.05, and we find that the average age, the proportion of homes owned outright, the proportion of homes rented, the greenspace area and the number of cars per households, are all signicantly different between the two groups of boroughs: labour and conservative.
 
-So we see that indeed, boroughs with different political controls are characterized by different parameter values! If some of these differences can be explained are known to exist culturally and socially, some variables that we would expect to be significantly different aren't (such as the proportion of people aged 65 and over, expected to be higher in conservative boroughs for instance). 
+So we see that indeed, **boroughs with different political controls are characterized by different parameter values**! If some of these differences can be explained are known to exist culturally and socially, some variables that we would expect to be significantly different aren't (such as the proportion of people aged 65 and over, expected to be higher in conservative boroughs for instance). 
 
 Also, we didn't expect to have such strong statistical differences between the two groups for the life satisfaction, happiness, and worthwhileness! 
 
