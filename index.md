@@ -6,7 +6,7 @@ subtitle: Does housing has an influence on people's life satisfaction and happin
 
 Housing is an important component of everyone's life. After all, your home is where you spend most of your time, particularly in these trouble times. Does your neighborhood, that you have now come to know by heart since lockdown, contribute to your happiness?
 
-![Alt Text](https://media.giphy.com/media/l0IylQoMkcbZUbtKw/giphy.gif)
+![Alt Text](https://media.giphy.com/media/l0IylQoMkcbZUbtKw/giphy.gif) 
 
 
 # Why this study?
@@ -66,8 +66,6 @@ To conclude, we see that the overall range for these four well-being scores is q
 <a name = "part1"></a>
 # 1. Location and life satisfaction
 Are you more satisfied with your life if you live in a particular borough of London? For instance, are inhabitants of Kensington and Chelsea, the most expensive borough of London, happier than others? 
-
-![Alt Text](https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif)
 
 ***Let's find out.***
 
