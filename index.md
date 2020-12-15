@@ -101,7 +101,7 @@ Employment rates:
 ## 1.2. What really makes you happy
 After some visual investigation, we could think that, for instance, people living in inner London boroughs are happier. So does your housing location really define your happiness? To answer this, we use different linear regression models. In model 1, we only tried to predict life satisfaction in function of whether the borough was located in inner or outer London. In model 2, we added the possible influence of health and safety in the neighborhood. In model 3 we additionally used the influence of employment rates and income. From this, we conclude the significance and thus importance of parameters defining your life satisfaction, happiness, worthwhileness and anxiety. 
 
-![Image](./assets/img/PVALUE1.png)
+![Image](./assets/img/PVALUES1.png)
 
 The black line on the histogram is here to show you that any bar that goes further than this has a p-value of less than 0.05 which means that we can reject the null hypothesis with a 5% probability that the null is correct (and the results are random). We can therefore accept the alternative hypothesis that all these scores can be predicted bylocation. 
 (IS THAT WHAT YOU WANTED AS CONCLUSION ?)
