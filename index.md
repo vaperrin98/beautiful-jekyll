@@ -44,20 +44,30 @@ As we are also interested in the political control in council, let's visualise t
 ![Image](./assets/img/PIES.png)
 
 Let's also have a look at housing prices across the boroughs. We see that one neighborhood in particular shows particularly high prices for housing: Kensington and Chelsea. This neighborhood is considered to be one of the most expensive in London, and the housing prices in this borough clearly reflect that. 
-![Image](./assets/img/HOUSE_PRICE.png)
+<p align="center">
+<img src="./assets/img/HOUSE_PRICE.png" width="700" />
+ </p>
 
 And last but not least: let's see if the four well-being scores variables, being life satisfaction, happiness, worthwhileness and anxiety, are any different between the boroughs.
 First looking at the life satisfaction, we see that all boroughs have a score between 7 and 7.6 our of 10, except for the City of London, otherwise all boroughs are within the same range. Why is the City of London so different? Let's see if it's an outlier for the other three scores.
-![Image](./assets/img/LIFE_SATIS.png)
+<p align="center">
+<img src="./assets/img/LIFE_SATIS.png" width="700" />
+ </p>
 
 Let's now have a look at the worthwhileness score across the London boroughs. Here, all boroughs have a score in the same range, around 7.5 out of 10, while again the City of London is quite different from others with a score closer to 7.
-![Image](./assets/img/WORTH.png)
+<p align="center">
+<img src="./assets/img/WORTH.png" width="700" />
+ </p>
 
 The happiness score is distributed in the same way. If all boroughs have a happiness score around 7.25, the City of London is the only one with a score inferior to 6.5. 
-![Image](./assets/img/HAPPY.png)
+<p align="center">
+<img src="./assets/img/HAPPY.png" width="700" />
+ </p>
 
 The difference between the City and the other neighborhoods is even more clearly visible concerning the anxiety score. The City inhabitants have an anxiety level almost twice as high as the other boroughs, with a score of 5.57 out of 10, and a mean anxiety score across boroughs of 3.3. 
-![Image](./assets/img/ANXIETY.png)
+<p align="center">
+<img src="./assets/img/ANXIETY.png" width="700" />
+ </p>
 
 To conclude, we see that the overall range for these four well-being scores is quite small for all boroughs except for one outlier: the City of London. We will see if that will be visible through the second part of this work when we intend to group neighborhoods together based on life and housing conditions.
 <a href="#top">Back to top</a> 
@@ -160,7 +170,9 @@ With this in mind, let's select some factors that could help us identify borough
 It is quite possible to group neighborhoods by looking at well-being, security and economic stability. We were able to find 5 groups of boroughs. By going back to the original data, we can show the groups using a map of London. 
 Here is a map where each borough is colored in the cluster to which it belongs after the PCA and k-means clustering.
 
+<p align="center">
 <img src="./assets/img/MAP_CLUSTERS.png" width="700" />
+ </p>
 
 And well, we find that the boroughs clustered together were usually belonging to the same London region (inner/outer london, geographic location)! This is interesting as we didn't use the location information to form the clusters: it means that the variables used in the PCA contain information that can be thought as redondant to the location information.
 Concerning the three big groups (that is, the clusters with more than one borough), we can also visualize some differences in the variables chosen, such as mean differences. This could be further investigated through some statistical tests, but we do find that the neighborhoods in each cluster are quite different from each others, as shown here! -> put bar plot comparison for all variables studied (4 well-being + income + employment + crime rates)
@@ -191,7 +203,10 @@ But what does all this mean for the powerful political men and women of London? 
 <a name = "part3"></a>
 # 3. Policital control in council
 Let's visualize some information how the political parties control is distributed across boroughs after the 2014 election.
-![Image](./assets/img/MAP_POL.png)
+
+<p align="center">
+<img src="./assets/img/MAP_POL.png" width="700" />
+ </p>
 
 Visually, there does not appear to be any pattern of political parties in control across London. For this analysis, we will restrict ourselves to the two major londonian parties, the Labour and Conservative parties.
 
