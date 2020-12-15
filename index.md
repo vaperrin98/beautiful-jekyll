@@ -34,6 +34,7 @@ But also, can politicians use your housing and neighbourhood conditions to know 
     2. [Can politics explain significant differences between neighborhoods concerning life satisfaction and housing?](#part3b)
 4. [Conclusion](#conclusion)
 
+![Alt Text](https://media.giphy.com/media/WsNbxuFkLi3IuGI9NU/giphy.gif)
 
 Let's first have some insights on the data we have. 
 We have information for the 33 boroughs of London. They are all classified as inner or outer boroughs.
