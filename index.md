@@ -37,14 +37,15 @@ But also, can politicians use your housing and neighbourhood conditions to know 
 ![Alt Text](https://media.giphy.com/media/pQKRcEA6GA9S8/giphy-downsized-large.gif)
 
 Let's first have some insights on the data we have. 
+![Image](./assets/img/ROUNDS.png)
 We have information for the 33 boroughs of London. They are all classified as inner or outer boroughs.
-![Image](./assets/img/INNER_OUTER.png)
+
 We also know the age distribution over all boroughs which can be divided into three classes: 0-15 years old, working-age, and over 65 years old.
-![Image](./assets/img/AGE_DIST.png)
+
 Housing can be separated into three categories, based on how the homes were acquired. These three classes are: homes owned outright (that is, full price was paid with the household's own money); homes bought with mortgage or with a loan; homes rented from a local authority or a housing association). Let's see how housing is shared among these three classes.
-![Image](./assets/img/HOUSE_BOUGHT.png)
+
 As we are also interested in the political control in council, let's visualise the share of neighborhoods controlled by each party.
-![Image](./assets/img/POLITICAL_PARTIES.png)
+
 
 Let's also have a look at housing prices across the boroughs. We see that one neighborhood in particular shows particularly high prices for housing: Kensington and Chelsea. This neighborhood is considered to be one of the most expensive in London, and the housing prices in this borough clearly reflect that. 
 ![Image](./assets/img/HOUSE_PRICE.png)
