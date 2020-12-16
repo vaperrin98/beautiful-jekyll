@@ -9,7 +9,3 @@ We are three master students from EPFL, all pursuing a Master in Life Science En
 - Valentine Perrin has a bachelor from EPFL and is now doing her master, also at EPFL.
 - Elodie Raes is a foreign student from Belgium who started her Master at EPFL this year.
 
-
-![Image](./assets/img/Valentine.png)
-
-![Image](./assets/img/Ariane.png)
