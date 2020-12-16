@@ -11,3 +11,5 @@ We are three master students from EPFL, all pursuing a Master in Life Science En
 
 
 ![Image](./assets/img/Valentine.png)
+
+![Image](./assets/img/Ariane.png)
