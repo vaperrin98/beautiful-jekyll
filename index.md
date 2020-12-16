@@ -75,6 +75,7 @@ The difference between the City and the other neighborhoods is even more clearly
  </p>
 
 To conclude, we see that the overall range for these four well-being scores is quite small for all boroughs except for one outlier: the City of London. We will see if that will be visible through the second part of this work when we intend to group neighborhoods together based on life and housing conditions.
+
 <a href="#index">Back to index</a> 
 
 <a name = "part1"></a>
@@ -125,6 +126,7 @@ We can thus answer that well being can be particularly defined by whether a home
 So to be one of the happiest persons of London, you should live in inner London and own your home outright! ***Simple, right?***
 
 But let's go a bit further.
+
 <a href="#index">Back to index</a> 
 
 <a name = "part2"></a>
@@ -168,6 +170,7 @@ If we did find some borough clusters, we see that it isn't easy to group the nei
 But can we find differences between neighborhoods in terms of life satisfaction, happiness, worthwhileness and anxiety, significant enough to uncover groups of neighborhoods? We found that it was not the case. This indicates that well-being variables by themselves cannot explain the neighborhood groups.
 
 To conclude, it is possible to group London neighborhoods, showing that well being, security and economic stability **together** are important life components that create some differences between neighborhoods in London.
+
 <a href="#index">Back to index</a> 
 
 
@@ -235,6 +238,7 @@ It's also important to take into account the fact that each of these variables t
 
 In conclusion, we have obtained very clear results showing that your living conditions can have a significant influence over your overall well being as well as your political affiliations. 
 So, now that you know all this: ***where are you moving to ?***
+
 <a href="#top">Back to top</a>
 
 [//]:#(---------- END OF WHAT IS VISIBLE ----------------)
