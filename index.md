@@ -20,7 +20,7 @@ What if we could establish the influence of numerous housing variables, such as 
 But also, can politicians use your housing and neighbourhood conditions to know if you will vote for them? We further extend our research on whether political opinion is defined by these conditions. We investigate whether some significant differences can be found between neighborhoods controlled by Labour or Conservative parties.
  
 
-## Index
+## [Index](#index)
 1. [Does location define well being or is it defined by standard of living (job, house price)?](#part1)
     1. [What could influence your well being?](#part1a)
     2. [Are you really happier if you live in inner London?](#part1b)
@@ -75,7 +75,7 @@ The difference between the City and the other neighborhoods is even more clearly
  </p>
 
 To conclude, we see that the overall range for these four well-being scores is quite small for all boroughs except for one outlier: the City of London. We will see if that will be visible through the second part of this work when we intend to group neighborhoods together based on life and housing conditions.
-<a href="#top">Back to top</a> 
+<a href="#index">Back to index</a> 
 
 <a name = "part1"></a>
 # 1. Location and well being
@@ -125,7 +125,7 @@ We can thus answer that well being can be particularly defined by whether a home
 So to be one of the happiest persons of London, you should live in inner London and own your home outright! ***Simple, right?***
 
 But let's go a bit further.
-<a href="#top">Back to top</a> 
+<a href="#index">Back to index</a> 
 
 <a name = "part2"></a>
 # 2. Neighborhoods
@@ -168,7 +168,7 @@ If we did find some borough clusters, we see that it isn't easy to group the nei
 But can we find differences between neighborhoods in terms of life satisfaction, happiness, worthwhileness and anxiety, significant enough to uncover groups of neighborhoods? We found that it was not the case. This indicates that well-being variables by themselves cannot explain the neighborhood groups.
 
 To conclude, it is possible to group London neighborhoods, showing that well being, security and economic stability **together** are important life components that create some differences between neighborhoods in London.
-<a href="#top">Back to top</a> 
+<a href="#index">Back to index</a> 
 
 
 **Until now,** we found that location, standards of living, neighborhood and housing conditions can all help predict your happiness and well being, and lead to significant differences between boroughs. We know what this means for you: happier, less anxious, in short, you now have all the keys to have a better life!
@@ -228,13 +228,13 @@ Collecting year-corresponding data from the variables that seem to have signific
 
 It's also important to take into account the fact that each of these variables tested for significant differences are very influenced by other variables, not even all included in this analysis and data. A more complete analysis of interactions between variables could help investigate the causes of these differences, and why not to solve them?
 
-<a href="#top">Back to top</a> 
+<a href="#index">Back to index</a> 
 
 <a name = "conclusion"></a>
 # Conclusion 
 
 In conclusion, we have obtained very clear results showing that your living conditions can have a significant influence over your overall well being as well as your political affiliations. 
 So, now that you know all this: ***where are you moving to ?***
-
+<a href="#top">Back to top</a>
 
 [//]:#(---------- END OF WHAT IS VISIBLE ----------------)
