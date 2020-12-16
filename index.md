@@ -234,7 +234,7 @@ It's also important to take into account the fact that each of these variables t
 # Conclusion 
 
 In conclusion, we have obtained very clear results showing that your living conditions can have a significant influence over your overall well being as well as your political affiliations. 
-So, now that you know all this: *where are you moving to ?*
+So, now that you know all this: ***where are you moving to ?***
 
 
 [//]:#(---------- END OF WHAT IS VISIBLE ----------------)
