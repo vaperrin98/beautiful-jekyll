@@ -48,28 +48,28 @@ Let's also have a look at housing prices across the boroughs. We see that one ne
  </p>
 
 And last but not least, we take the four variables that follow as defining the overall well being of inhabitants of each boroughs: 
-- <span style="color:darkred">life satisfaction score</span>
-- <span style="color:darkred">worthwhileness score</span>
--  <span style="color:darkred">happiness score</span>
-- <span style="color:darkred">anxiety score</span>
+- <span style="color:darkgreen">life satisfaction score</span>
+- <span style="color:darkgreen">worthwhileness score</span>
+-  <span style="color:darkgreen">happiness score</span>
+- <span style="color:darkgreen">anxiety score</span>
 
 Let's see if they are any different between the boroughs.
-First looking at the <span style="color:darkgreen">**life satisfaction score**</span>, we see that all boroughs have a score between 7 and 7.6 our of 10, except for the City of London, otherwise all boroughs are within the same range. Why is the City of London so different? Let's see if it's an outlier for the other three scores.
+First looking at the <span style="color:darkgreen"> **life satisfaction score** </span>, we see that all boroughs have a score between 7 and 7.6 our of 10, except for the City of London, otherwise all boroughs are within the same range. Why is the City of London so different? Let's see if it's an outlier for the other three scores.
 <p align="center">
 <img src="./assets/img/LIFE_SATIS.png" width="700" />
  </p>
 
-Let's now have a look at the <span style="color:darkgreen">**worthwhileness score**</span> across the London boroughs. Here, all boroughs have a score in the same range, around 7.5 out of 10, while again the City of London is quite different from others with a score closer to 7.
+Let's now have a look at the <span style="color:darkgreen"> **worthwhileness score** </span> across the London boroughs. Here, all boroughs have a score in the same range, around 7.5 out of 10, while again the City of London is quite different from others with a score closer to 7.
 <p align="center">
 <img src="./assets/img/WORTH.png" width="700" />
  </p>
 
-The <span style="color:darkgreen">**happiness score**</span> is distributed in the same way. If all boroughs have a happiness score around 7.25, the City of London is the only one with a score inferior to 6.5. 
+The <span style="color:darkgreen"> **happiness score** </span> is distributed in the same way. If all boroughs have a happiness score around 7.25, the City of London is the only one with a score inferior to 6.5. 
 <p align="center">
 <img src="./assets/img/HAPPY.png" width="700" />
  </p>
 
-The difference between the City and the other neighborhoods is even more clearly visible concerning the <span style="color:darkgreen">**anxiety score**</span>. The City inhabitants have an anxiety level almost twice as high as the other boroughs, with a score of 5.57 out of 10, and a mean anxiety score across boroughs of 3.3. 
+The difference between the City and the other neighborhoods is even more clearly visible concerning the <span style="color:darkgreen"> **anxiety score** </span>. The City inhabitants have an anxiety level almost twice as high as the other boroughs, with a score of 5.57 out of 10, and a mean anxiety score across boroughs of 3.3. 
 <p align="center">
 <img src="./assets/img/ANXIETY.png" width="700" />
  </p>
@@ -80,7 +80,7 @@ To conclude, we see that the overall range for these four well-being scores is q
 
 <a name = "part1"></a>
 # 1. Location and well being
-Are you more satisfied with your life if you live in a particular borough of London? Are you happier or more anxious? Are the inhabitants of Kensington and Chelsea, the most expensive borough of London, happier than others? 
+Are you more satisfied with your life if you live in a particular borough of London? Are you happier or maybe more anxious? Are the inhabitants of Kensington and Chelsea, the most expensive borough of London, happier than others? 
 
 ***Let's find out.***
 
@@ -89,7 +89,7 @@ Are you more satisfied with your life if you live in a particular borough of Lon
 To discover what makes people satisfied with their life, we think about what could make people happy with their housing conditions. Let's observe for instance the employment rate, the household income, the life satisfaction score, and the happiness score of Londong boroughs in relation to their location.
 -> put the graphs investigating the variables used in this question + describe this and make the conclusions.
 
-We identified several parameters to be of potential influence for your happiness, life satisfaction, worthwhileness, and anxiety. We can separate them into four groups: health, safety, income, and employment variables. 
+We identified several parameters to be of potential influence on your happiness, life satisfaction, worthwhileness, and anxiety. We can separate them into four groups: health, safety, income, and employment variables. 
 
 ***Now, get ready to discover how to be happy in London.***
 
