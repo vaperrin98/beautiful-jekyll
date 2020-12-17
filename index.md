@@ -30,7 +30,7 @@ But also, can politicians use your housing and neighbourhood conditions to know 
 3. [Is political control based on well being and housing conditions?](#part3)
     1. [Do we observe differences between neighborhoods with different political controls?](#part3a)
     2. [Can politics explain significant differences between neighborhoods concerning well being and housing?](#part3b)
-4. [Conclusion](#conclusion)
+4. [What does this mean for us?](#conclusion)
 
 
 # A first look at our data
@@ -185,7 +185,7 @@ But what does all this mean for the powerful political men and women of London? 
 Let's visualize some information how the political parties control is distributed across boroughs after the 2014 election.
 
 <p align="center">
-<img src="./assets/img/MAP_POL.png" width="700" />
+<img src="./assets/img/MAP_POL.png" width="500" />
  </p>
 
 Visually, there does not appear to be any pattern of political parties in control across London. For this analysis, we will restrict ourselves to the two major londonian parties, the Labour and Conservative parties.
@@ -252,9 +252,9 @@ We may have uncovered one of the many criteria for happiness, but the recipe to 
 However, location may still bring you one step closer to a higher overall well being!
 
 So, now that you know all this: ***where are you moving to ?***
-
+<p align="center">
 ![Alt Text](https://media.giphy.com/media/UOdoMz3baCENO/giphy.gif) 
-
+ </p>
 <a href="#top">Back to top</a>
 
 [//]:#(---------- END OF WHAT IS VISIBLE ----------------)
