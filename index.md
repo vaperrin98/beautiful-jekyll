@@ -54,22 +54,22 @@ And last but not least, we take the four variables that follow as defining the o
 - <span style="color:darkred">anxiety score</span>
 
 Let's see if they are any different between the boroughs.
-First looking at the <span style="color:darkred">life satisfaction score</span>, we see that all boroughs have a score between 7 and 7.6 our of 10, except for the City of London, otherwise all boroughs are within the same range. Why is the City of London so different? Let's see if it's an outlier for the other three scores.
+First looking at the <span style="color:darkgreen">life satisfaction score</span>, we see that all boroughs have a score between 7 and 7.6 our of 10, except for the City of London, otherwise all boroughs are within the same range. Why is the City of London so different? Let's see if it's an outlier for the other three scores.
 <p align="center">
 <img src="./assets/img/LIFE_SATIS.png" width="700" />
  </p>
 
-Let's now have a look at the <span style="color:darkred">worthwhileness score</span> across the London boroughs. Here, all boroughs have a score in the same range, around 7.5 out of 10, while again the City of London is quite different from others with a score closer to 7.
+Let's now have a look at the <span style="color:darkgreen">worthwhileness score</span> across the London boroughs. Here, all boroughs have a score in the same range, around 7.5 out of 10, while again the City of London is quite different from others with a score closer to 7.
 <p align="center">
 <img src="./assets/img/WORTH.png" width="700" />
  </p>
 
-The <span style="color:darkred">happiness score</span> is distributed in the same way. If all boroughs have a happiness score around 7.25, the City of London is the only one with a score inferior to 6.5. 
+The <span style="color:darkgreen">happiness score</span> is distributed in the same way. If all boroughs have a happiness score around 7.25, the City of London is the only one with a score inferior to 6.5. 
 <p align="center">
 <img src="./assets/img/HAPPY.png" width="700" />
  </p>
 
-The difference between the City and the other neighborhoods is even more clearly visible concerning the <span style="color:darkred">anxiety score</span>. The City inhabitants have an anxiety level almost twice as high as the other boroughs, with a score of 5.57 out of 10, and a mean anxiety score across boroughs of 3.3. 
+The difference between the City and the other neighborhoods is even more clearly visible concerning the <span style="color:darkgreen">anxiety score</span>. The City inhabitants have an anxiety level almost twice as high as the other boroughs, with a score of 5.57 out of 10, and a mean anxiety score across boroughs of 3.3. 
 <p align="center">
 <img src="./assets/img/ANXIETY.png" width="700" />
  </p>
