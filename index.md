@@ -239,15 +239,18 @@ It's also important to take into account the fact that each of these variables t
 <a name = "conclusion"></a>
 # <span style="color:teal"> So.. what does this mean for us? </span>
 
-We have dived deep into London, its geography and its inhabitant's happiness. We have searched high and low for clear correlations between standard of living criteria and high scores for happiness, life satisfaction or even wrothewhileness. 
+As students of EPFL, we are still relatively young and we wonder where our lives will take us. But as we make the decisions in the coming years that will shape our future, we wanted to understand what we should take into consideration when choosing a place to live. 
 
-And what we found is fascinating ! We have obtained very clear results showing that your living conditions can have a significant influence over your overall well being as well as your political affiliations. 
-What do we do with all this now ? I think the fair answer is... not much ! 
+We dived deep into London, its geography and its inhabitant's happiness and we searched high and low for clear correlations between standard of living criteria and high scores for happiness, life satisfaction or even worthewhileness. 
+
+And we found something fascinating as we obtained very clear results showing that your living conditions can have a significant influence over your overall well being as well as your political affiliations. 
+However, what do we do with all this now ? We think the fair answer is... not much ! 
 We may have uncovered one of the many criteria for happiness, but the recipe to be truthful is probably much more complex. 
 
-However, you may still be one step closer to a higher overall well being!
+However, location may still bring you one step closer to a higher overall well being!
 
 So, now that you know all this: ***where are you moving to ?***
+
 ![Alt Text](https://media.giphy.com/media/UOdoMz3baCENO/giphy.gif) 
 
 <a href="#top">Back to top</a>
