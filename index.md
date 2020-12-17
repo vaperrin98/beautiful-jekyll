@@ -64,12 +64,12 @@ Let's now have a look at the <span style="color:teal"> **worthwhileness score** 
 <img src="./assets/img/WORTH.png" width="700" />
  </p>
 
-The <span style="color:DarkOliveGreen"> **happiness score** </span> is distributed in the same way. If all boroughs have a happiness score around 7.25, the City of London is the only one with a score inferior to 6.5. 
+The <span style="color:teal"> **happiness score** </span> is distributed in the same way. If all boroughs have a happiness score around 7.25, the City of London is the only one with a score inferior to 6.5. 
 <p align="center">
 <img src="./assets/img/HAPPY.png" width="700" />
  </p>
 
-The difference between the City and the other neighborhoods is even more clearly visible concerning the <span style="color:DarkOliveGreen"> **anxiety score** </span>. The City inhabitants have an anxiety level almost twice as high as the other boroughs, with a score of 5.57 out of 10, and a mean anxiety score across boroughs of 3.3. 
+The difference between the City and the other neighborhoods is even more clearly visible concerning the <span style="color:teal"> **anxiety score** </span>. The City inhabitants have an anxiety level almost twice as high as the other boroughs, with a score of 5.57 out of 10, and a mean anxiety score across boroughs of 3.3. 
 <p align="center">
 <img src="./assets/img/ANXIETY.png" width="700" />
  </p>
