@@ -235,7 +235,7 @@ It's also important to take into account the fact that each of these variables t
 
 
 <a name = "conclusion"></a>
-# <span style="color:teal"> We have showed you London, now how about you ? </span>
+# <span style="color:teal"> So.. shat does this all mean for you and I ? </span>
 
 We have dived deep into London, its geography and its inhabitant's happiness. We have searched high and low for clear correlations between standard of living criteria and high scores for happiness, life satisfaction or even wrothewhileness. 
 
