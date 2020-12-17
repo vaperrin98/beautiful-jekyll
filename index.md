@@ -1,4 +1,3 @@
-![Image](./assets/img/LONDON2.png)
 
 ---
 layout: home
