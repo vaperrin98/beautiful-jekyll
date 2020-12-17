@@ -4,15 +4,13 @@ title: Happiness & Housing in London
 subtitle: Does housing has an influence on people's well being and happiness? Could the 33 boroughs of London allow us to uncover the housing and neighborhood conditions that make people happy?
 ---
 
-<span style="color:blue">some text</span>
-
 Housing is an important component of everyone's life. After all, your home is where you spend most of your time, particularly in these trouble times. Does your neighborhood, that you have now come to know by heart since lockdown, contribute to your happiness?
 
 ![Alt Text](https://media.giphy.com/media/l0IylQoMkcbZUbtKw/giphy.gif) 
 
 # Why this study?
 
-Cattaneo and al., in their paper *Housing, Health and Happiness*, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program, Piso Firme. That program aimed to replace household dirt floors by cement floors to improve standards of living. What is particularly interesting for us is that they found that housing upgrades significantly improve adult welfare, as measured by an increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: **How does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city?** We decided to extend their work by looking at data about housing in London.
+Cattaneo and al., in their paper <span style="color:brown">*Housing, Health and Happiness*</span>, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program, Piso Firme. That program aimed to replace household dirt floors by cement floors to improve standards of living. What is particularly interesting for us is that they found that housing upgrades significantly improve adult welfare, as measured by an increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: **How does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city?** We decided to extend their work by looking at data about housing in London.
 
 We explore the possibility to find such an influence from housing in the London boroughs. If the context of this second study is certainly different from theirs (the housing conditions in these two countries are rather different), this second study also compares information of small closely related locations (London boroughs instead of two twin cities of Mexico) to uncover the influence of housing conditions on their inhabitants' life in these neighborhoods. 
 We won't look at health-related happiness in the same way, as this first paper investigates issues that they do happen in the London, but mostly not due to housing conditions (anemia, parasites, ...). However, life satisfaction and happiness indices can still be investigated in relationship to other housing conditions. 
@@ -50,10 +48,10 @@ Let's also have a look at housing prices across the boroughs. We see that one ne
  </p>
 
 And last but not least, we take the four variables that follow as defining the overall well being of inhabitants of each boroughs: 
-- life satisfaction score
-- worthwhileness score
--  happiness score
-- anxiety score
+- <span style="color:brown">life satisfaction score</span>
+- <span style="color:brown">worthwhileness score</span>
+-  <span style="color:brown">happiness score</span>
+- <span style="color:brown">anxiety score</span>
 
 Let's see if they are any different between the boroughs.
 First looking at the life satisfaction, we see that all boroughs have a score between 7 and 7.6 our of 10, except for the City of London, otherwise all boroughs are within the same range. Why is the City of London so different? Let's see if it's an outlier for the other three scores.
