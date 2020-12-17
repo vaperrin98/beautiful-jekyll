@@ -1,4 +1,3 @@
-
 ---
 layout: home
 title: Happiness & Housing in London 
