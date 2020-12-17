@@ -1,3 +1,5 @@
+![Image](./assets/img/LONDON2.png)
+
 ---
 layout: home
 title: Happiness & Housing in London 
