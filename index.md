@@ -150,7 +150,7 @@ It is quite possible to group neighborhoods by looking at well-being, security a
 Here is a map where each borough is colored in the cluster to which it belongs after the PCA and k-means clustering.
 
 <p align="center">
-<img src="./assets/img/MAP_CLUSTERS.png" width="700" />
+<img src="./assets/img/MAP_CLUSTERS.png" width="500" />
  </p>
 
 And well, we find that boroughs that were clustered together usually belong to the same London region (<span style="color:darkgreen"> **inner/outer london** </span>, <span style="color:darkgreen"> **geographic location** </span>)! This is interesting as we didn't use the location information to form the clusters: it means that the variables used in the PCA contain information that can be thought as redondant to the location information.
