@@ -4,6 +4,8 @@ title: Happiness & Housing in London
 subtitle: Does housing has an influence on people's well being and happiness? Could the 33 boroughs of London allow us to uncover the housing and neighborhood conditions that make people happy?
 ---
 
+<span style="color:blue">some *This is Blue italic.* text</span>
+
 Housing is an important component of everyone's life. After all, your home is where you spend most of your time, particularly in these trouble times. Does your neighborhood, that you have now come to know by heart since lockdown, contribute to your happiness?
 
 ![Alt Text](https://media.giphy.com/media/l0IylQoMkcbZUbtKw/giphy.gif) 
@@ -234,9 +236,12 @@ It's also important to take into account the fact that each of these variables t
 <a href="#index">Back to index</a> 
 
 <a name = "conclusion"></a>
-# Conclusion 
+# We have showed you London, now how about you ?
+
+We have dived deep into London and its inhabitant's happiness. We have searched high and low for clear correlations between standard of living criteria and high scores for happiness, life satisfaction or even wrothewhileness. 
 
 In conclusion, we have obtained very clear results showing that your living conditions can have a significant influence over your overall well being as well as your political affiliations. 
+
 So, now that you know all this: ***where are you moving to ?***
 
 <a href="#top">Back to top</a>
