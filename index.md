@@ -256,7 +256,7 @@ We may have uncovered one of the many criteria for happiness, but the recipe to 
 
 However, location may still bring you one step closer to a higher overall well being!
 
-So, now that you know all this: ***Where are you moving to ?***
+So, now that you know all this: ***Where are you moving to?***
 <p align="center">
  <img src="https://media.giphy.com/media/UOdoMz3baCENO/giphy.gif" /> 
  </p>
