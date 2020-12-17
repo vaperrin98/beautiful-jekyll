@@ -246,7 +246,7 @@ We may have uncovered one of the many criteria for happiness, but the recipe to 
 However, you may still be one step closer to a higher overall well being!
 
 So, now that you know all this: ***where are you moving to ?***
-![Alt Text](https://media.giphy.com/media/1dIpAfIiac6cD9vdbT/giphy.gif) 
+![Alt Text](https://media.giphy.com/media/UOdoMz3baCENO/giphy.gif) 
 
 <a href="#top">Back to top</a>
 
