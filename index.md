@@ -48,10 +48,10 @@ Let's also have a look at housing prices across the boroughs. We see that one ne
  </p>
 
 And last but not least, we take the four variables that follow as defining the overall well being of inhabitants of each boroughs: 
-- <span style="color:darkgreen"> **life satisfaction score** </span>
-- <span style="color:darkgreen"> **worthwhileness score** </span>
--  <span style="color:darkgreen"> **happiness score** </span>
-- <span style="color:darkgreen"> **anxiety score** </span>
+- life satisfaction score
+- worthwhileness score
+- happiness score
+- anxiety score
 
 Let's see if they are any different between the boroughs.
 First looking at the <span style="color:darkgreen"> **life satisfaction score** </span>, we see that all boroughs have a score between 7 and 7.6 our of 10, except for the City of London, otherwise all boroughs are within the same range. Why is the City of London so different? Let's see if it's an outlier for the other three scores.
@@ -104,7 +104,7 @@ We can deduce that the life satisfaction score, the worthwhileness score as well
 
 However, anxiety is hardly predictable by your location, so maybe try some other things than moving to a new borough to reduce your stress (it will probably cost less anyway).
 
-We also wonder if the <span style="color:darkred"> **standard of living** </span> also be used to predict life satisfaction? We chose to test a prediction with the criteria of salary, median house price, crime rates and if the house was owned outright. Can any of these parameters predict the life satisfation score, happiness score, worthwhileness score or anxiety score? 
+We also wonder if the <span style="color:purple"> **standard of living** </span> also be used to predict life satisfaction? We chose to test a prediction with the criteria of salary, median house price, crime rates and if the house was owned outright. Can any of these parameters predict the life satisfation score, happiness score, worthwhileness score or anxiety score? 
 
 ![Image](./assets/img/PVALUES2.png)
 Just like in the figure above, the red line on the histogram is here to show you which p-values are lower than 0.05.
