@@ -13,10 +13,10 @@ Housing is an important component of everyone's life. After all, your home is wh
 
 # Why this study?
 
-Cattaneo and al., in their paper <span style="color:Brown">*Housing, Health and Happiness*</span>, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program, Piso Firme. That program aimed to replace household dirt floors by cement floors to improve standards of living. What is particularly interesting for us is that they found that housing upgrades significantly improve adult welfare, as measured by an increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: **How does their findings generalize to other cities? Is it possible to establish links between housing and life satisfaction in a big European city?** We decided to extend their work by looking at data about housing in London.
+Cattaneo and al., in their paper <span style="color:Brown">*Housing, Health and Happiness*</span>, discuss the influence of housing on health and welfare by studying the impact of a large-scale household Mexican government program, Piso Firme. That program aimed to replace household dirt floors by cement floors to improve standards of living. What is particularly interesting for us is that they found that housing upgrades significantly improve adult welfare, as measured by an increased satisfaction with their housing and quality of life, as well as lower depression and perceived stress. This raises an interesting point: **How does their findings generalize to other cities? Is it possible to establish links between housing and well-being in a big European city?** We decided to extend their work by looking at data about housing in London.
 
 We explore the possibility to find such an influence from housing in the London boroughs. If the context of this second study is certainly different from theirs (the housing conditions in these two countries are rather different), this second study also compares information of small closely related locations (London boroughs instead of two twin cities of Mexico) to uncover the influence of housing conditions on their inhabitants' life in these neighborhoods. 
-We won't look at health-related happiness in the same way, as this first paper investigates issues that they do happen in the London, but mostly not due to housing conditions (anemia, parasites, ...). However, life satisfaction and happiness indices can still be investigated in relationship to other housing conditions. 
+We won't look at health-related happiness in the same way, as this first paper investigates issues that do happen in the London, but mostly not due to housing conditions (anemia, parasites, ...). However, life satisfaction and happiness indices, and overall well-being, can still be investigated in relationship to other housing conditions. 
 
 What if we could establish the influence of numerous housing variables, such as prices, neighbourhoods (and conditions) on your life satisfaction, anxiety levels and happiness in the city of London? We would be able to tell you where you should live to make your life great!
 
@@ -42,7 +42,7 @@ We have information for the 33 boroughs of London. They are all classified as in
 
 We also know the age distribution over all boroughs which can be divided into three classes: 0-15 years old, working-age, and over 65 years old.
 
-Housing can be separated into three categories, based on how the homes were acquired. These three classes are: homes owned outright (that is, full price was paid with the household's own money); homes bought with mortgage or with a loan; homes rented from a local authority or a housing association). We can see in the third pie chart below see how housing is shared among these three classes.
+Housing can be separated into three categories, based on how the homes were acquired. These three classes are: homes owned outright (that is, full price was paid with the household's own money); homes bought with mortgage or with a loan; homes rented from a local authority or a housing association). We can see in the third pie chart below how housing is shared among these three classes.
 
 As we are also interested in the political control in council, let's visualise the share of neighborhoods controlled by each party.
 ![Image](./assets/img/PIES.png)
@@ -52,14 +52,14 @@ Let's also have a look at housing prices across the boroughs. We see that one ne
 <img src="./assets/img/HOUSE_PRICE.png" width="700" />
  </p>
 
-And last but not least, we take the four variables that follow as defining the overall well being of inhabitants of each boroughs: 
-- life satisfaction score
-- worthwhileness score
-- happiness score
-- anxiety score
+And last but not least, we take the four variables that follow as defining the overall well-being of inhabitants of each borough: 
+- Life satisfaction score
+- Worthwhileness score
+- Happiness score
+- Anxiety score
 
 Let's see if they are any different between the boroughs.
-First looking at the <span style="color:Teal"> **life satisfaction score** </span>, we see that all boroughs have a score between 7 and 7.6 out of 10, except for the City of London, otherwise all boroughs are within the same range. Why is the City of London so different? Let's see if it's an outlier for the other three scores.
+First looking at the <span style="color:Teal"> **life satisfaction score**</span>, we see that all boroughs have a score between 7 and 7.6 out of 10. Except for the City of London, otherwise all boroughs are within the same range. Why is the City of London so different? Let's see if it's an outlier for the other three scores.
 <p align="center">
 <img src="./assets/img/LIFE_SATIS.png" width="700" />
  </p>
@@ -84,13 +84,13 @@ To conclude, we see that the overall range for these four well-being scores is q
 <a href="#index">Back to index</a> 
 
 <a name = "part1"></a>
-# 1. Location and well being
+# 1. Location and well-being
 Are you more satisfied with your life if you live in a particular borough of London? Are you happier or maybe more anxious? Are the inhabitants of Kensington and Chelsea, the most expensive borough of London, happier than others? 
 
 ***Let's find out.***
 
 <a name = "part1a"></a>
-## 1.1. What could influence your happiness?
+## 1.1. What could influence your well-being?
 To discover what makes people satisfied with their life, we think about what could make people happy with their housing conditions. Let's observe for instance the employment rate, the household income, the life satisfaction score, and the happiness score of Londong boroughs in relation to their location.
 -> put the graphs investigating the variables used in this question + describe this and make the conclusions.
 
@@ -100,7 +100,7 @@ We identified several parameters to be of potential influence on your happiness,
 
 <a name = "part1b"></a>
 ## 1.2. What really makes you happy
-After some visual investigation, we could think that, for instance, people living in inner London boroughs are happier. So does your housing location really define your happiness and well being? To answer this, we use different linear regression models. In model 1, we only tried to predict all four variables of well being in function of whether the borough was located in inner or outer London. In model 2, we added the possible influence of health and safety in the neighborhood. In model 3 we additionally used the influence of employment rates and income. From this, we are able to conclude the significance and importance of parameters defining your life satisfaction, happiness, worthwhileness and anxiety. 
+After some visual investigation, we could think that, for instance, people living in inner London boroughs are happier. So does your housing location really define your happiness and well-being? To answer this, we use different linear regression models. In model 1, we only tried to predict all four variables of well-being in function of whether the borough was located in inner or outer London. In model 2, we added the possible influence of health and safety in the neighborhood. In model 3 we additionally used the influence of employment rates and income. From this, we are able to conclude the significance and importance of parameters defining your life satisfaction, happiness, worthwhileness and anxiety. 
 
 ![Image](./assets/img/PVALUES1.png)
 
@@ -109,7 +109,7 @@ We can deduce that the life satisfaction score, the worthwhileness score as well
 
 However, anxiety is hardly predictable by your location, so maybe try some other things than moving to a new borough to reduce your stress (it will probably cost less anyway).
 
-We also wonder if the <span style="color:purple"> **standard of living** </span> also be used to predict life satisfaction? We chose to test a prediction with the criteria of salary, median house price, crime rates and if the house was owned outright. Can any of these parameters predict the life satisfation score, happiness score, worthwhileness score or anxiety score? 
+We also wonder if the <span style="color:purple"> **standard of living** </span> could also be used to predict well-being. We chose to test a prediction with the criteria of salary, median house price, crime rates and if the house was owned outright. Can any of these parameters predict the life satisfation score, happiness score, worthwhileness score or anxiety score? 
 
 ![Image](./assets/img/PVALUES2.png)
 Just like in the figure above, the red line on the histogram is here to show you which p-values are lower than 0.05.
@@ -118,7 +118,7 @@ We see that the crime rates per thousand population alone cannot predict any of 
 
 For the median house price alone, we see that it is very efficient to predict the anxiety score, but not the other scores. 
 
-In terms of gross annual pay, it is not surprising to find that earning more money can help reducing your anxiety, as well as increasing your happiness. However, you're not more satisfied with your life if you earn more. 
+In terms of gross annual pay, it is not surprising to find that earning more money can significantly help reducing your anxiety, as well as increasing your happiness. However, you're not more satisfied with your life if you earn more. 
 
 But what's interesting here, is that how you own your house is a powerful predictor for all 4 scores. Having your home owned outright, that is, having full possession of your home (you paid all of it directly with your own money and received no loan) has a significant influence on your life satisfaction, happiness, worthwhileness and anxiety.
 
@@ -126,7 +126,7 @@ But what's interesting here, is that how you own your house is a powerful predic
 - Your location does define your life satisfaction, worthwhileness, and happiness, but not your anxiety.
 - Some standard of living criteria such as annual pay, house price and how you own your home can also predict these scores.
 
-We can thus answer that well being can be particularly defined by whether a home was owned outright and by location. 
+In fact, we can say that well-being can be particularly defined by whether a home was owned outright and by location. 
 
 So to be one of the happiest persons of London, you should live in inner London and own your home outright! ***Simple, right?***
 
@@ -136,39 +136,36 @@ But let's go a bit further.
 
 <a name = "part2"></a>
 # 2. Neighborhoods
-We found that location does define your happiness and well being. But are neighboorhoods that different? Can we find some differences so important that they define clusters of boroughs?
+We found that location does define your happiness and well-being. But are neighboorhoods that different? Can we find some differences so important that they define clusters of boroughs?
 
 <a name = "part2a"></a>
 ## 2.1. Finding borough groups
-What could make your neighborhood so great compared to others? Let's visualize some infos for the boroughs.
--> put graphs/figures concerning the boroughs
-
-With this in mind, let's select some factors that could help us identify boroughs with a lot in common. We selected the four well-being scores, the employment rate, the household income, and the crime rates. These variables were selected to study the differences between neighborhoods in terms of well-being, security and economic stability.
+What could make your neighborhood so great compared to others? We select some factors that could help us identify boroughs with a lot in common. We selected the four well-being scores, the employment rate, the household income, and the crime rates. These variables were selected to study the differences between neighborhoods in terms of well-being, security and economic stability.
 
 ***Now, let's dive into the real stuff.***
 
 <a name = "part2b"></a>
 ## 2.2. How are these groups defined?
 It is quite possible to group neighborhoods by looking at well-being, security and economic stability. We were able to find **5 groups of boroughs**. By going back to the original data, we can show the groups using a map of London. 
-Here is a map where each borough is colored in the cluster to which it belongs after the PCA and k-means clustering.
+Here is a map where each borough is colored in the cluster to which it belongs after the clustering methods.
 
 <p align="center">
 <img src="./assets/img/MAP_CLUSTERS.png" width="500" />
  </p>
 
-And well, we find that boroughs that were clustered together usually belong to the same London region (<span style="color:darkgreen"> **inner/outer london** </span>, <span style="color:darkgreen"> **geographic location** </span>)! This is interesting as we didn't use the location information to form the clusters: it means that the variables used in the PCA contain information that can be thought as redondant to the location information.
+Well, we find that boroughs that were clustered together usually belong to the same London region (<span style="color:darkgreen"> **inner/outer london** </span>, <span style="color:darkgreen"> **geographic location** </span>)! This is interesting as we didn't use the location information to form the clusters: it means that the variables used contain information that can be thought as redondant to the location information.
 Concerning the three big groups (that is, the clusters with more than one borough), we can also have a look at the differences for the variables chosen, such as mean differences. This could be further investigated through some statistical tests, but we do find that the neighborhoods in each cluster are quite different from each others when comparing the means for multiple variables available (such as crime rates, employment, well-being).
 
 #### But, what are these two lonely neighborhoods?
-Two neighborhoods cannot be linked to any others? **Why?** 
+Two neighborhoods cannot be linked to any others. **Why?** 
 
 If they are flying solo, it must be because they are very different from the others! Let's find out why ...
 
 The first outlier is the <span style="color:darkred"> **City of London** </span>. This does not mean London as a whole, but rather the historical and central primary business center of London. This a major business and financial center, mostly consisting of companies and business group headquarters. Its characteristics are quite different from other boroughs, but what makes it that different? In comparison to the overall data for the other boroughs, we found that the City of London is an outlier for four of the seven variables used in this part of study. Indeed, it is an extreme borough for all the well-being variables, with the lowest happiness, life satisfaction and worthwhileness scores, and the highest anxiety scores, as can already be seen from the distributions shown ealier. 
 
-We see that the City is different from other boroughs, particularly concerning the well-being of its inhabitants.This explains why the City of London can't be associated to any other borough.
+We see that the City is different from other boroughs, particularly concerning the well-being of its inhabitants. This explains why the City of London can't be associated to any other borough.
 
-The second outlier is <span style="color:darkred"> **Westminster** </span>. A very touristic borough with high frequentation rates, where the Westminster Abbaye and the Big Ben can be seen. But what makes it so different from others? Westminster borough is actually quite normal compared to the overall data of the other boroughs. But if the large majority of parameters are within the normal range, one variable is particularly high in this borough: the crime rates. The crime rates per thousand population in Westminster is almost 3 times higher as the london mean crime rates per thousand population. This added to the tourists everywhere, probably doesn't make it a great place to live in London ...
+The second outlier is <span style="color:darkred"> **Westminster** </span>. A very touristic borough with high frequentation rates, where the Westminster Abbaye and the Big Ben can be seen. But what makes it so different from others? Westminster borough is actually quite normal compared to the overall data of the other boroughs. But if the large majority of parameters are within the normal range, one variable is particularly high in this borough: the crime rates. The crime rates per thousand population in Westminster is almost 3 times higher than the london mean crime rates per thousand population. This added to the tourists everywhere probably doesn't make it a great place to live in London ...
 <p align="center">
 <img src="./assets/img/CRIMES.png" width="400" />
  </p>
@@ -177,12 +174,12 @@ If we did find some borough clusters, we see that it isn't easy to group the nei
 
 But can we find differences between neighborhoods in terms of life satisfaction, happiness, worthwhileness and anxiety, significant enough to uncover groups of neighborhoods? We found that it was not the case. This indicates that well-being variables by themselves cannot explain the neighborhood groups.
 
-To conclude, it is possible to group London neighborhoods, showing that well being, security and economic stability **together** are important life components that create some differences between neighborhoods in London.
+To conclude, it is possible to group London neighborhoods, showing that well-being, security and economic stability **together** are important life components that create some differences between neighborhoods in London.
 
 <a href="#index">Back to index</a> 
 
 
-**Until now,** we found that location, standards of living, neighborhood and housing conditions can all help predict your happiness and well being, and lead to significant differences between boroughs. We know what this means for you: happier, less anxious, in short, you now have all the keys to have a better life!
+**Until now,** we found that location, standards of living, neighborhood and housing conditions can all help predict your happiness and well-being, and lead to significant differences between boroughs. We know what this means for you: happier, less anxious, in short, you now have all the keys to have a better life!
 
 But what does all this mean for the powerful political men and women of London? Are your political opinions linked to your neighborhood conditions?
 
@@ -196,22 +193,24 @@ Let's visualize some information how the political parties control is distribute
 
 Visually, there does not appear to be any pattern of political parties in control across London. For this analysis, we will restrict ourselves to the two major londonian parties, the Labour and Conservative parties.
 
-The question is, can we identify the variables that could influence why a party has the control in council in a neighborhood? That is, can we observe meaningful differences between boroughs with different political controls? Let's find out.
+The question is, can we identify the variables that could influence why a party has the control in council in a neighborhood? That is, can we observe meaningful differences between boroughs with different political controls? ***Let's find out.***
 
 <a name = "part3a"></a>
 ## 3.1. Boroughs with Labour political control and Conservative political control
 Are neighborhoods election results linked to the conditions in the neighborhoods? To identify potential differences between the neighborhoods voting for the different parties, we observe the mean for multiple variables, with an analysis divided into two parts:
 
-First, we will look at the four well-being indices (life satisfaction, happiness, worthwhileness and anxiety), to investigate whether there are some significant differences in well-being between labour-controlled and conservative-controlled boroughs. We also chose several other variables that could have a potential influence on those four well being scores in order to verifiy our results. 
+First, we will look at the four well-being indices (life satisfaction, happiness, worthwhileness and anxiety), to investigate whether there are some significant differences in well-being between labour-controlled and conservative-controlled boroughs. 
 
-First, we want to see if the variables selected show a mean difference between the two political groups of boroughs. We visualised if the characteristics with potentially different means from the two parts above list are indeed differently distributed between labour boroughs and conservative boroughs. As an example, we visualize the distribution of the four well-being variables:
+Then, we also chose several other variables that could have a potential influence on those four well-being scores in order to check if there are other differences. 
+
+We want to see if the variables selected show a mean difference between the two political groups of boroughs. We visualised if the characteristics with potentially different means from the two parts above are indeed differently distributed between labour boroughs and conservative boroughs. As an example, here are the distribution of the four well-being variables:
 <p align="center">
 <img src="./assets/img/DIST.png" width="700" />
  </p>
 
-For these four scores, it seems that there are some differences for the life satisfaction, happiness and worthwhileness scores, but not for the anxiety score, which seems to follow quite the same distribution for labour-controlled and conservative-controlled boroughs. We reproduce the same visualisation for all previously mentioned and derive the same type of conclusion each time.
+For these four scores, it seems that there are some differences for the life satisfaction, happiness and worthwhileness scores, but not for the anxiety score, which seems to follow quite the same distribution for labour-controlled and conservative-controlled boroughs. We reproduce the same visualisation for all variables selected and derive the same type of conclusion each time.
 
-In the end, we found that a lot of parameters seem to have different distributions for the two types of boroughs. We need to verify if there are significant differences.
+In the end, we found that a lot of parameters seem to have different distributions for the two types of boroughs. We need to verify if these are significant differences.
 
 ***Let's do it!***
 
@@ -235,19 +234,19 @@ But what's the interest of all this?
 
 **Would it be possible to go further?**
 
-Collecting year-corresponding data from the variables that seem to have significantly different values in Labour and Conservative boroughs could be used to develop a prediction model, allowing politicians to visualise which neighborhoods they can hope to win based on the life and housing conditions in these neighborhoods.
+Collecting year-corresponding data from the variables that seem to have significantly different values in labour and conservative boroughs could be used to develop a prediction model, allowing politicians to visualise which neighborhoods they can hope to win based on the life and housing conditions in these neighborhoods.
 
-It's also important to take into account the fact that each of these variables tested for significant differences are very influenced by other variables, not even all included in this analysis and data. A more complete analysis of interactions between variables could help investigate the causes of these differences, and why not to solve them?
+It's also important to take into account the fact that each of these variables tested for significant differences are very influenced by other variables, not even all included in this analysis and data. A more complete analysis of interactions between variables could help investigate the causes of these differences, and why not to solve them? Here's a job for the politicians: to find solutions to these inequalities!
 
 <a href="#index">Back to index</a> 
 
 
 <a name = "conclusion"></a>
-# <span style="color:teal"> So.. what does this mean for us? </span>
+# <span style="color:teal"> So... What does this mean for us? </span>
 
 As students of EPFL, we are still relatively young and we wonder where our lives will take us. But as we make the decisions in the coming years that will shape our future, we wanted to understand what we should take into consideration when choosing a place to live. 
 
-We dived deep into London, its geography and its inhabitant's happiness and we searched high and low for clear correlations between standard of living criteria and high scores for happiness, life satisfaction or even worthewhileness. 
+We dived deep into London, its geography and its inhabitant's well-being and we searched high and low for clear correlations between standard of living criteria and high scores for happiness, life satisfaction or even worthewhileness. 
 
 And we found something fascinating as we obtained very clear results showing that your living conditions can have a significant influence over your overall well being as well as your political affiliations. 
 
@@ -257,7 +256,7 @@ We may have uncovered one of the many criteria for happiness, but the recipe to 
 
 However, location may still bring you one step closer to a higher overall well being!
 
-So, now that you know all this: ***where are you moving to ?***
+So, now that you know all this: ***Where are you moving to ?***
 <p align="center">
  <img src="https://media.giphy.com/media/UOdoMz3baCENO/giphy.gif" /> 
  </p>
