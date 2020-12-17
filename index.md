@@ -2,7 +2,7 @@
 layout: home
 title: Happiness & Housing in London 
 subtitle: Does housing has an influence on people's well being and happiness? Could the 33 boroughs of London allow us to uncover the housing and neighborhood conditions that make people happy?
-cover-img: ./assets/img/LONDON2.png
+cover-img: "./assets/img/LONDON2.png"
 ---
 
 Housing is an important component of everyone's life. After all, your home is where you spend most of your time, particularly in these trouble times. Does your neighborhood, that you have now come to know by heart since lockdown, contribute to your happiness?
