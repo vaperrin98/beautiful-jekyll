@@ -56,7 +56,7 @@ And last but not least, we take the four variables that follow as defining the o
 - anxiety score
 
 Let's see if they are any different between the boroughs.
-First looking at the <span style="color:Teal"> **life satisfaction score** </span>, we see that all boroughs have a score between 7 and 7.6 our of 10, except for the City of London, otherwise all boroughs are within the same range. Why is the City of London so different? Let's see if it's an outlier for the other three scores.
+First looking at the <span style="color:Teal"> **life satisfaction score** </span>, we see that all boroughs have a score between 7 and 7.6 out of 10, except for the City of London, otherwise all boroughs are within the same range. Why is the City of London so different? Let's see if it's an outlier for the other three scores.
 <p align="center">
 <img src="./assets/img/LIFE_SATIS.png" width="700" />
  </p>
