@@ -253,7 +253,7 @@ However, location may still bring you one step closer to a higher overall well b
 
 So, now that you know all this: ***where are you moving to ?***
 <p align="center">
-![Alt Text](https://media.giphy.com/media/UOdoMz3baCENO/giphy.gif) 
+ <img src="https://media.giphy.com/media/UOdoMz3baCENO/giphy.gif" /> 
  </p>
 <a href="#top">Back to top</a>
 
