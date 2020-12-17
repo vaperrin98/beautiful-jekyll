@@ -239,7 +239,9 @@ It's also important to take into account the fact that each of these variables t
 
 We have dived deep into London and its inhabitant's happiness. We have searched high and low for clear correlations between standard of living criteria and high scores for happiness, life satisfaction or even wrothewhileness. 
 
-In conclusion, we have obtained very clear results showing that your living conditions can have a significant influence over your overall well being as well as your political affiliations. 
+And what we found is fascinating ! We have obtained very clear results showing that your living conditions can have a significant influence over your overall well being as well as your political affiliations. 
+What do we do with all this now ? I think the fair answer is... not much ! 
+We may have uncovered one of the many criteria for happiness. 
 
 So, now that you know all this: ***where are you moving to ?***
 
