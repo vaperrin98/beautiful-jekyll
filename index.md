@@ -237,11 +237,13 @@ It's also important to take into account the fact that each of these variables t
 <a name = "conclusion"></a>
 # <span style="color:teal"> We have showed you London, now how about you ? </span>
 
-We have dived deep into London and its inhabitant's happiness. We have searched high and low for clear correlations between standard of living criteria and high scores for happiness, life satisfaction or even wrothewhileness. 
+We have dived deep into London, its geography and its inhabitant's happiness. We have searched high and low for clear correlations between standard of living criteria and high scores for happiness, life satisfaction or even wrothewhileness. 
 
 And what we found is fascinating ! We have obtained very clear results showing that your living conditions can have a significant influence over your overall well being as well as your political affiliations. 
 What do we do with all this now ? I think the fair answer is... not much ! 
-We may have uncovered one of the many criteria for happiness. 
+We may have uncovered one of the many criteria for happiness, but the recipe to be truthful is probably much more complex. 
+
+However, you may still be one step closer to a higher overall well being!
 
 So, now that you know all this: ***where are you moving to ?***
 
