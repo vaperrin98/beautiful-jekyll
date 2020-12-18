@@ -191,7 +191,7 @@ But what does all this mean for the powerful political men and women of London? 
 Let's visualize some information how the political parties control is distributed across boroughs after the 2014 election.
 
 <p align="center">
-<img src="./assets/img/MAP_POL.png" width="500" />
+<img src="./assets/img/MAP_POL.png" width="300" />
  </p>
 
 Visually, there does not appear to be any pattern of political parties in control across London. For this analysis, we will restrict ourselves to the two major londonian parties, the Labour and Conservative parties.
