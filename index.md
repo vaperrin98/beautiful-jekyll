@@ -115,7 +115,7 @@ We can deduce that the life satisfaction score, the worthwhileness score as well
 
 However, anxiety is hardly predictable by your location, so maybe try some other things than moving to a new borough to reduce your stress (it will probably cost less anyway).
 
-We also wonder if the <span style="color:purple"> **standard of living** </span> could also be used to predict well-being. We chose to test a prediction with the criteria of salary, median house price, crime rates and if the house was owned outright. Can any of these parameters predict the life satisfation score, happiness score, worthwhileness score or anxiety score? 
+We also wonder if the <span style="color:darkred"> **standard of living** </span> could also be used to predict well-being. We chose to test a prediction with the criteria of salary, median house price, crime rates and if the house was owned outright. Can any of these parameters predict the life satisfation score, happiness score, worthwhileness score or anxiety score? 
 
 ![Image](./assets/img/PVALUES2.png)
 Just like in the figure above, the red line on the histogram is here to show you which p-values are lower than 0.05.
