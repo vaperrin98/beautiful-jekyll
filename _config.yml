@@ -39,7 +39,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "valentine.perrin@epfl.ch" "ariane.daneydemarcillac@epfl.ch"
+  email: "valentine.perrin@epfl.ch"
   #facebook: deanattali
   github: vaperrin98
   #twitter: daattali
