@@ -110,9 +110,9 @@ After some visual investigation, we could think that, for instance, people livin
 ![Image](./assets/img/PVALUES1.png)
 
 The red line on the histogram is here to show you that any bar that goes further than it has a p-value of less than 0.05 (we chose to plot 1 - pvalue for visualisation reasons, so any bar going further than 0.95 corresponds to a pvalue inferior to 0.05), which means that location is significant to assess all these scores at a 5% significance level.
-We can deduce that the life satisfaction score, the worthwhileness score as well as the happiness score can very well be predicted from location in all three models. Well, this means that all these scores can be predicted by location. **Sorry folks, but people living in inner London are indeed happier!**
+We can deduce that the life satisfaction score, the worthwhileness score as well as the happiness score can be quite well predicted from location in all three models. Well, this means that all these scores can be predicted by location. **Sorry folks, but people living in inner London are indeed happier!**
 
-However, anxiety is hardly predictable by your location, so maybe try some other things than moving to a new borough to reduce your stress (it will probably cost less anyway).
+However, anxiety is hardly predictable by your location, and is probably mostly influenced by other factors, so maybe try some other things than moving to a new borough to reduce your stress (it will probably cost less anyway).
 
 We also wonder if the <span style="color:darkred"> **standard of living** </span> could also be used to predict well-being. We chose to test a prediction with the criteria of salary, median house price, crime rates and if the house was owned outright. Can any of these parameters predict the life satisfation score, happiness score, worthwhileness score or anxiety score? 
 
@@ -121,11 +121,11 @@ Just like in the figure above, the red line on the histogram is here to show you
 
 We see that the crime rates per thousand population alone cannot predict any of these scores, meaning that having high numbers of crimes in your neighborhood doesn't affect your personal life (well-being) that much (well, until something happens to you).
 
-For the median house price alone, we see that it is very efficient to predict the anxiety score, but not the other scores. 
+For the median house price alone, we see that it is very efficient to predict the anxiety score, but not the other scores. A more expensive home leads to higher anxiety!
 
-In terms of gross annual pay, it is not surprising to find that earning more money can significantly help reducing your anxiety, as well as increasing your happiness. However, you're not more satisfied with your life if you earn more. 
+In terms of gross annual pay, it is not surprising to find that earning more money can significantly help reducing your anxiety. However, it doesn't significantly influence your happiness, worthwhileness, or life satisfaction. 
 
-But what's interesting here, is that how you own your house is a powerful predictor for all 4 scores. Having your home owned outright, that is, having full possession of your home (you paid all of it directly with your own money and received no loan) has a significant influence on your life satisfaction, happiness, worthwhileness and anxiety.
+But what's interesting here, is that how you own your house is a powerful predictor for all 4 scores. Having your home owned outright, that is, having full possession of your home (you paid all of it directly with your own money and received no loan) has a significant influence on your life satisfaction, happiness, worthwhileness and anxiety. Having your homes owned outright results in higher life satisfactio, worthwhileness and happiness, and lower anxiety.
 
 **To conclude:**
 - Your location does define your life satisfaction, worthwhileness, and happiness, but not your anxiety.
@@ -145,7 +145,7 @@ We found that location does define your happiness and well-being. But are neighb
 
 <a name = "part2a"></a>
 ## 2.1. Finding borough groups
-What could make your neighborhood so great compared to others? We select some factors that could help us identify boroughs with a lot in common. We selected the four well-being scores, the employment rate, the household income, and the crime rates. These variables were selected to study the differences between neighborhoods in terms of well-being, security and economic stability.
+What could make your neighborhood so great compared to others? We select some factors that could help us identify boroughs with a lot in common. We selected the happiness and anxiety scores, as well as the employment rate, the household income, and the crime rates. These variables were selected to study the differences between neighborhoods in terms of well-being, security and economic stability.
 
 ***Now, let's dive into the real stuff.***
 
@@ -166,7 +166,7 @@ Two neighborhoods cannot be linked to any others. **Why?**
 
 If they are flying solo, it must be because they are very different from the others! Let's find out why ...
 
-The first outlier is the <span style="color:darkred"> **City of London** </span>. This does not mean London as a whole, but rather the historical and central primary business center of London. This a major business and financial center, mostly consisting of companies and business group headquarters. Its characteristics are quite different from other boroughs, but what makes it that different? In comparison to the overall data for the other boroughs, we found that the City of London is an outlier for four of the seven variables used in this part of study. Indeed, it is an extreme borough for all the well-being variables, with the lowest happiness, life satisfaction and worthwhileness scores, and the highest anxiety scores, as can already be seen from the distributions shown ealier. 
+The first outlier is the <span style="color:darkred"> **City of London** </span>. This does not mean London as a whole, but rather the historical and central primary business center of London. This a major business and financial center, mostly consisting of companies and business group headquarters. Its characteristics are quite different from other boroughs, but what makes it that different? In comparison to the overall data for the other boroughs, we found that the City of London is an outlier for happiness and anxiety scores used in this part of study. Indeed, it is an extreme borough for all the well-being variables, with the lowest happiness, life satisfaction and worthwhileness scores, and the highest anxiety scores, as can already be seen from the distributions shown ealier. 
 
 We see that the City is different from other boroughs, particularly concerning the well-being of its inhabitants. This explains why the City of London can't be associated to any other borough.
 
@@ -176,8 +176,6 @@ The second outlier is <span style="color:darkred"> **Westminster** </span>. A ve
  </p>
 
 If we did find some borough clusters, we see that it isn't easy to group the neighborhoods in very distinct clusters. This is not really surprising, as real human data is usually defined by many variables, and they are probably not all included in that analysis. 
-
-But can we find differences between neighborhoods in terms of life satisfaction, happiness, worthwhileness and anxiety, significant enough to uncover groups of neighborhoods? We found that it was not the case. This indicates that well-being variables by themselves cannot explain the neighborhood groups.
 
 To conclude, it is possible to group London neighborhoods, showing that well-being, security and economic stability **together** are important life components that create some differences between neighborhoods in London.
 
