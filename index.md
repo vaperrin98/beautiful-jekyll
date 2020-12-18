@@ -94,8 +94,9 @@ Are you more satisfied with your life if you live in a particular borough of Lon
 To discover what makes people satisfied with their life, we think about what could make people happy with their housing conditions. Let's observe for instance the employment rate, the household income, the life satisfaction score, and the happiness score of Londong boroughs in relation to their location.
 
 <p align="center">
-<img src="./assets/img/SCATTER1.png" width="700" />
+<img src="./assets/img/SCATTER2.png" width="700" />
  </p>
+ 
 
 We identified several parameters to be of potential influence on your happiness, life satisfaction, worthwhileness, and anxiety. We can separate them into four groups: health, safety, income, and employment. 
 
