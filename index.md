@@ -97,8 +97,7 @@ To discover what makes people satisfied with their life, we think about what cou
 <img src="./assets/img/SCATTER3.png" width="700" />
  </p>
 
-We can see that for happiness, life satisfaction and employment rates the distribution of the values seem to be very similar wether you live in Inner or Outer London. However, there is a much wider range of median household income for people living in Inner London compared to Outer London. Two outliers can always be seen in all 4 scatter plots: Kensingtons & Chelsea and City of London. 
-
+We can see that for happiness, life satisfaction and employment rates the distribution of the values seem to be very similar whether you live in Inner or Outer London. However, there is a much wider range of median household income for people living in Inner London compared to Outer London. Two outliers can always be seen in all 4 scatter plots: Kensingtons & Chelsea and City of London. 
 
 We identified several parameters to be of potential influence on your happiness, life satisfaction, worthwhileness, and anxiety. We can separate them into four groups: health, safety, income, and employment. 
 
