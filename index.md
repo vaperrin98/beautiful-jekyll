@@ -109,7 +109,7 @@ After some visual investigation, we could think that, for instance, people livin
 
 ![Image](./assets/img/PVALUES1.png)
 
-The red line on the histogram is here to show you that any bar that goes further than it has a p-value of less than 0.05 (we chose to plot 1 - pvalue for visualisation reasons, so any bar going further than 0.95 corresponds to a pvalue inferior to 0.05), which means that location is significant to assess all these scores at a 5% significance level.
+The red line on the histogram is here to show you that any bar that goes further than it has a p-value of less than 0.10 (we chose to plot 1 - pvalue for visualisation reasons, so any bar going further than 0.90 corresponds to a pvalue inferior to 0.10), which means that location is significant to assess all these scores at a 10% significance level.
 We can deduce that the life satisfaction score, the worthwhileness score as well as the happiness score can be quite well predicted from location in all three models. Well, this means that all these scores can be predicted by location. **Sorry folks, but people living in inner London are indeed happier!**
 
 However, anxiety is hardly predictable by your location, and is probably mostly influenced by other factors, so maybe try some other things than moving to a new borough to reduce your stress (it will probably cost less anyway).
@@ -117,7 +117,7 @@ However, anxiety is hardly predictable by your location, and is probably mostly 
 We also wonder if the <span style="color:darkred"> **standard of living** </span> could also be used to predict well-being. We chose to test a prediction with the criteria of salary, median house price, crime rates and if the house was owned outright. Can any of these parameters predict the life satisfation score, happiness score, worthwhileness score or anxiety score? 
 
 ![Image](./assets/img/PVALUES2.png)
-Just like in the figure above, the red line on the histogram is here to show you which p-values are lower than 0.05.
+Here, the red line on the histogram is here to show you which p-values are lower than 0.05.
 
 We see that the crime rates per thousand population alone cannot predict any of these scores, meaning that having high numbers of crimes in your neighborhood doesn't affect your personal life (well-being) that much (well, until something happens to you).
 
