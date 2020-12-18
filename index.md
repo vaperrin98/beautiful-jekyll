@@ -155,7 +155,7 @@ It is quite possible to group neighborhoods by looking at well-being, security a
 Here is a map where each borough is colored in the cluster to which it belongs after the clustering methods.
 
 <p align="center">
-<img src="./assets/img/MAP_CLUSTERS.png" width="500" />
+<img src="./assets/img/MAP_CLUSTERS.png" width="700" />
  </p>
 
 Well, we find that boroughs that were clustered together usually belong to the same London region (<span style="color:darkgreen"> **inner/outer london** </span>, <span style="color:darkgreen"> **geographic location** </span>)! This is interesting as we didn't use the location information to form the clusters: it means that the variables used contain information that can be thought as redondant to the location information.
